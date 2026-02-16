@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260218T110000
+DTEND;TZID=America/New_York:20260218T120000
+DTSTAMP:20260216T173214Z
+ORGANIZER;CN=Shameen Higney:mailto:shameen@higneyintl.com
+UID:mvpdnkrnpflpdspcbh0p2f5urs@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Austin Higney;X-NUM-GUESTS=0:mailto:austin@higneyintl.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Shameen Higney;X-NUM-GUESTS=0:mailto:shameen@higneyintl.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Peter Higney;X-NUM-GUESTS=0:mailto:peter@higneyintl.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=liz.iwanski@metrolagoons.com;X-NUM-GUESTS=0:mailto:liz.iwanski@metr
+ olagoons.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jonathan.kelly@metrolagoons.com;X-NUM-GUESTS=0:mailto:jonathan.kell
+ y@metrolagoons.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/zpj-ngbv-txo
+X-MICROSOFT-CDO-OWNERAPPTID:-899627985
+CREATED:20260216T173203Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/zp
+ j-ngbv-txo\nOr dial: (US) +1 347-566-5634 PIN: 794614826#\nMore phone numbe
+ rs: https://tel.meet/zpj-ngbv-txo?pin=4707962078672&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260216T173211Z
+LOCATION:https://meet.google.com/zpj-ngbv-txo
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:HI x Seaire - Review BOQ
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

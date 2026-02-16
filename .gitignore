@@ -1,0 +1,16 @@
+# Credentials (never commit)
+credentials/
+*.key
+*.pem
+
+# Media files
+*.ogg
+*.wav
+*.mp3
+
+# OS files
+.DS_Store
+Thumbable.db
+
+# Session transcripts
+*.jsonl
