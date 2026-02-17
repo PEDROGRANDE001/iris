@@ -16,7 +16,7 @@
 | **1WLO / Nube Restaurant** | — | Quoting | Banquette fabrics, Dekton finishes, vendor quotes | — | — | TBD |
 | **Jason Monaco** | Jason Monaco (repeat client) | Aruba Order #3 + Toronto | Fulfillment | Austin | — | Recurring |
 | **40 Edgewater** | Ronen Ben Josef, Great Neck NY | Indoor + outdoor procurement | Ongoing fulfillment | Peter | — | $35K design + 15% FF&E |
-| **Santorini Fort Lauderdale** | — | — | — | — | — | TBD |
+| **Santorini Fort Lauderdale** | Georgios | — | — | — | — | TBD |
 | **Barbados Lagoon Residences** | — | Preliminary design | Spec package development | Peter | — | TBD |
 
 ## Pending Contracts
