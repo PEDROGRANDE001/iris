@@ -2,6 +2,8 @@
 *Last updated: 2026-02-17 by Iris*
 
 ## Peter
+- [ ] 40 Edgewater — design table + coffee table for TV room
+- [ ] 40 Edgewater — design dining room chairs
 - [ ] Ritz-Carlton BH — send updated renderings (TODAY)
 - [ ] Ritz-Carlton BH — finalize orders by end of March
 - [ ] Send StruXure quote to Mahoneys (cabana pricing)
