@@ -15,6 +15,7 @@
 | **Maggiano's / Brinker** | Faustine Furniture | Recurring shipments | Order 6 shipping from Vietnam | Austin | Feb 2026 | Recurring |
 | **1WLO / Nube Restaurant** | — | Quoting | Banquette fabrics, Dekton finishes, vendor quotes | — | — | TBD |
 | **Jason Monaco** | Jason Monaco (repeat client) | Aruba Order #3 + Toronto | Fulfillment | Austin | — | Recurring |
+| **40 Edgewater** | Ronen Ben Josef, Great Neck NY | Indoor + outdoor procurement | Ongoing fulfillment | Peter | — | $35K design + 15% FF&E |
 | **Santorini Fort Lauderdale** | — | — | — | — | — | TBD |
 | **Barbados Lagoon Residences** | — | Preliminary design | Spec package development | Peter | — | TBD |
 
@@ -33,7 +34,6 @@
 ## Non-Active / Terminated
 - **Ritz-Carlton BH — Interior** — lost the job
 - **Chatwal Hotel NYC** — client decided not to go with us
-- **40 Edgewater / Ronen Ben Josef** — terminated
 - **Nikki Beach Club Global** — no longer working with them
 - **Joia Beach** — non-active
 - **Kimpton Angler's** — non-active
