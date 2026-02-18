@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higney International — Project Board</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #c9d1d9; padding: 24px; }
+  h1 { color: #f0f6fc; font-size: 24px; margin-bottom: 4px; }
+  .subtitle { color: #8b949e; font-size: 14px; margin-bottom: 24px; }
+  .board { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 16px; }
+  .column { background: #161b22; border-radius: 12px; min-width: 280px; max-width: 320px; flex-shrink: 0; padding: 16px; }
+  .column-header { font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .column-header .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .card { background: #21262d; border: 1px solid #30363d; border-radius: 8px; padding: 14px; margin-bottom: 10px; transition: border-color 0.2s; }
+  .card:hover { border-color: #58a6ff; }
+  .card-title { font-size: 15px; font-weight: 600; color: #f0f6fc; margin-bottom: 6px; }
+  .card-client { font-size: 12px; color: #8b949e; margin-bottom: 8px; }
+  .card-action { font-size: 13px; color: #c9d1d9; margin-bottom: 8px; line-height: 1.4; }
+  .card-meta { display: flex; justify-content: space-between; align-items: center; }
+  .tag { font-size: 11px; padding: 2px 8px; border-radius: 12px; font-weight: 500; }
+  .tag-owner { background: #1f6feb33; color: #58a6ff; }
+  .tag-deadline { background: #f8514933; color: #f85149; }
+  .tag-value { background: #3fb95033; color: #3fb950; }
+  .tag-waiting { background: #d2992233; color: #d29922; }
+  .due-item { font-size: 12px; color: #d29922; margin-top: 6px; padding-left: 12px; border-left: 2px solid #d29922; }
+  .section-title { color: #f0f6fc; font-size: 18px; margin: 32px 0 16px; }
+  .pending-table { width: 100%; max-width: 900px; border-collapse: collapse; }
+  .pending-table th { text-align: left; color: #8b949e; font-size: 12px; text-transform: uppercase; padding: 8px 12px; border-bottom: 1px solid #30363d; }
+  .pending-table td { padding: 10px 12px; border-bottom: 1px solid #21262d; font-size: 14px; }
+  .legend { display: flex; gap: 16px; margin-top: 24px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #8b949e; }
+</style>
+</head>
+<body>
+
+<h1>🏗️ Higney International — Project Board</h1>
+<p class="subtitle">Last updated: February 18, 2026 · Managed by Iris</p>
+
+<div class="board">
+
+  <!-- QUOTING / PROPOSALS -->
+  <div class="column">
+    <div class="column-header"><span class="dot" style="background:#d29922"></span> Quoting / Proposals</div>
+    
+    <div class="card">
+      <div class="card-title">Mahoney Cabana</div>
+      <div class="card-client">Brian & Angela Mahoney · Residential</div>
+      <div class="card-action">3 quotes in progress: StruXure ($75K ✅), Valrose (quote #2 sent to client), Tuuci (pending)</div>
+      <div class="due-item">⏳ Tuuci quote expected Thu 2/19</div>
+      <div class="due-item">📅 Delivery needed: last week of April</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Peter</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">1WLO / Nube Restaurant</div>
+      <div class="card-client">—</div>
+      <div class="card-action">Banquette fabrics, Dekton finishes, vendor quotes. Kavana slab quote sent to Shameen.</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Peter</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Hyatt Place Boca</div>
+      <div class="card-client">—</div>
+      <div class="card-action">Alexandra comparing BJ vs original budget</div>
+      <div class="due-item">📅 Tickler: Mon 2/23</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Alexandra</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Barbados Lagoon Residences</div>
+      <div class="card-client">—</div>
+      <div class="card-action">Preliminary design · Spec package development</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Peter</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Santorini Fort Lauderdale</div>
+      <div class="card-client">Georgios</div>
+      <div class="card-action">Early stage — scope TBD</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- WAITING ON CLIENT / CONTRACT -->
+  <div class="column">
+    <div class="column-header"><span class="dot" style="background:#f85149"></span> Waiting on Client</div>
+
+    <div class="card">
+      <div class="card-title">Four Seasons Costa Rica</div>
+      <div class="card-client">Peninsula Papagayo</div>
+      <div class="card-action">Proposal V4 submitted — waiting signed contract</div>
+      <div class="card-meta">
+        <span class="tag tag-waiting">Waiting</span>
+        <span class="tag tag-value">$15K + 8% FF&E</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Metro Lagoons</div>
+      <div class="card-client">Tampa, FL</div>
+      <div class="card-action">Contract sent. Valrose cabana quote requested (fan mount, perimeter lighting, 2×20×20). DecoScape pricing meeting tomorrow.</div>
+      <div class="due-item">📅 DecoScape/Iveta pricing: Thu 2/19</div>
+      <div class="due-item">📅 Follow-up meeting: Mon 2/24</div>
+      <div class="due-item">📅 Peter owes 2nd floor layout: Tue 2/25</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Peter/Shameen</span>
+        <span class="tag tag-value">8% FF&E + $7.5K</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">WG Hotel</div>
+      <div class="card-client">Knallhart Mgmt · Winter Garden, FL</div>
+      <div class="card-action">Budget deliverable + retainer billing</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Peter/Austin</span>
+        <span class="tag tag-value">$25K + 10% of $1.8M</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACTIVE / PROCUREMENT -->
+  <div class="column">
+    <div class="column-header"><span class="dot" style="background:#3fb950"></span> Active / Procurement</div>
+
+    <div class="card" style="border-color: #3fb950;">
+      <div class="card-title">⭐ Ritz-Carlton Bal Harbour</div>
+      <div class="card-client">Lion Stone Dev / Beilinson Gomez</div>
+      <div class="card-action">Flagship. Finalize orders. Adam wants 2×10×10 cabanas (not 10×20), missing divider between bar/restaurant & member area.</div>
+      <div class="due-item">🔴 Cabana/planter response to Ronen — DUE TODAY 6 PM</div>
+      <div class="due-item">📅 Orders finalized: End of March</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Peter/Austin</span>
+        <span class="tag tag-value">$125K + 10% FF&E</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Ritz-Carlton BH — South Lawn</div>
+      <div class="card-client">Lion Stone Dev</div>
+      <div class="card-action">Furniture in storage. Coordinate delivery/install.</div>
+      <div class="due-item">💸 Storage: $1,333/mo burning</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Austin</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">40 Edgewater</div>
+      <div class="card-client">Ronen Ben Josef · Great Neck, NY</div>
+      <div class="card-action">Indoor + outdoor procurement — ongoing fulfillment</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Peter</span>
+        <span class="tag tag-value">$35K + 15% FF&E</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Maggiano's / Brinker</div>
+      <div class="card-client">Faustine Furniture</div>
+      <div class="card-action">Order 6 shipping from Vietnam + Scottsdale repair</div>
+      <div class="due-item">📅 Feb 2026 shipment</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Austin</span>
+        <span class="tag tag-value">Recurring</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Jason Monaco</div>
+      <div class="card-client">Repeat client</div>
+      <div class="card-action">Aruba Order #3 + Toronto fulfillment</div>
+      <div class="card-meta">
+        <span class="tag tag-owner">Austin</span>
+        <span class="tag tag-value">Recurring</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- UPCOMING DUE DATES -->
+<h2 class="section-title">📅 What's Due</h2>
+<table class="pending-table">
+  <thead>
+    <tr><th>Date</th><th>Project</th><th>Action</th><th>Owner</th></tr>
+  </thead>
+  <tbody>
+    <tr style="color:#f85149;font-weight:600"><td>Today 6 PM</td><td>Ritz-Carlton BH</td><td>Cabana/planter response to Ronen</td><td>Peter</td></tr>
+    <tr><td>Thu 2/19</td><td>Mahoney</td><td>Tuuci quote expected</td><td>Peter</td></tr>
+    <tr><td>Thu 2/19</td><td>Metro Lagoons</td><td>DecoScape/Iveta pricing meeting</td><td>Shameen</td></tr>
+    <tr><td>Mon 2/23</td><td>Hyatt Place Boca</td><td>Alexandra budget comparison follow-up</td><td>Alexandra</td></tr>
+    <tr><td>Mon 2/24</td><td>Metro Lagoons</td><td>Follow-up meeting after DecoScape pricing</td><td>Peter/Shameen</td></tr>
+    <tr><td>Tue 2/25</td><td>Metro Lagoons</td><td>Peter owes 2nd floor layout</td><td>Peter</td></tr>
+    <tr><td>End of March</td><td>Ritz-Carlton BH</td><td>Finalize all orders</td><td>Peter/Austin</td></tr>
+    <tr><td>Late April</td><td>Mahoney</td><td>Cabana delivery needed</td><td>Peter</td></tr>
+    <tr><td>Q4 2026</td><td>Metro Lagoons</td><td>Opening target</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<div class="legend">
+  <div class="legend-item"><span class="dot" style="background:#d29922;width:8px;height:8px;border-radius:50%;display:inline-block"></span> Quoting</div>
+  <div class="legend-item"><span class="dot" style="background:#f85149;width:8px;height:8px;border-radius:50%;display:inline-block"></span> Waiting on Client</div>
+  <div class="legend-item"><span class="dot" style="background:#3fb950;width:8px;height:8px;border-radius:50%;display:inline-block"></span> Active</div>
+</div>
+
+</body>
+</html>
