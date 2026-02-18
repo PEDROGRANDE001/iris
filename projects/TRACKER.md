@@ -13,7 +13,7 @@
 | **Four Seasons Costa Rica** | Four Seasons Peninsula Papagayo | Contract sent | Waiting signed contract | Peter | — | $15K deposit + $250/hr + 8% FF&E |
 | **Metro Lagoons** | Metro Lagoons, Tampa FL | Contract sent | Waiting signed contract | Peter/Shameen | Q4 2026 opening | 8% FF&E + $7.5K upfront |
 | **Maggiano's / Brinker** | Faustine Furniture | Recurring shipments | Order 6 shipping from Vietnam | Austin | Feb 2026 | Recurring |
-| **1WLO / Nube Restaurant** | — | Quoting | Banquette fabrics, Dekton finishes, vendor quotes | — | — | TBD |
+| **1WLO / Nube Restaurant** | — | Quoting | Banquette fabrics, Dekton finishes, vendor quotes. **Austin to send invoice.** | Austin | — | TBD |
 | **Jason Monaco** | Jason Monaco (repeat client) | Aruba Order #3 + Toronto | Fulfillment | Austin | — | Recurring |
 | **40 Edgewater** | Ronen Ben Josef, Great Neck NY | Indoor + outdoor procurement | Ongoing fulfillment | Peter | — | $35K design + 15% FF&E |
 | **Santorini Fort Lauderdale** | Georgios (owner, both Santorini locations) | — | — | — | — | TBD |
