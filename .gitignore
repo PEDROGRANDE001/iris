@@ -14,3 +14,7 @@ Thumbable.db
 
 # Session transcripts
 *.jsonl
+TOOLS.md
+MEMORY.md
+USER.md
+memory/
