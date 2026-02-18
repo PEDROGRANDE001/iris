@@ -3,10 +3,12 @@
 
 ## Peter
 - [ ] 40 Edgewater — design table + coffee table for TV room
-- [ ] 40 Edgewater — design dining room chairs
-- [ ] Ritz-Carlton BH — send updated renderings (TODAY)
+- [ ] 40 Edgewater — dining room chairs sent to Brittany, awaiting feedback
+- [x] ~~Ritz-Carlton BH — send updated renderings~~ (done 2/17)
 - [ ] Ritz-Carlton BH — finalize orders by end of March
-- [ ] Send StruXure quote to Mahoneys (cabana pricing)
+- [ ] Mahoney cabana — get Valrose quote (Giuseppe emailed)
+- [ ] Mahoney cabana — get Tuuci quote
+- [ ] Mahoney cabana — present all 3 quotes to Brian & Angela
 - [ ] Michael Sin onboarding meeting — 6 PM today (2/17)
 - [ ] NSI meeting — Thu 2/19 at 10 AM
 - [ ] PROFILE Design Summit prep (March 4)

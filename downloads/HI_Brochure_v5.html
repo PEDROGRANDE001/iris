@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higney International — Bespoke Design & Fulfillment</title>
+<style>
+  @page {
+    size: landscape;
+    margin: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .slide {
+    width: 100vw;
+    height: 56.25vw; /* 16:9 */
+    max-height: 100vh;
+    padding: 5vw 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    page-break-after: always;
+    position: relative;
+    overflow: hidden;
+  }
+
+  @media print {
+    .slide {
+      width: 100%;
+      height: 100vh;
+      padding: 8% 10%;
+    }
+  }
+
+  /* Typography */
+  h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+  }
+
+  h1 { font-size: 3.2vw; }
+  h2 { font-size: 2.4vw; margin-bottom: 1.5vw; }
+  h3 { font-size: 1.6vw; margin-bottom: 1vw; }
+  h4 { font-size: 1.2vw; margin-bottom: 0.5vw; color: #b8965a; text-transform: uppercase; letter-spacing: 0.12em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 0.85vw; }
+
+  p, li {
+    font-size: 1.05vw;
+    line-height: 1.75;
+    color: #333;
+  }
+
+  .gold { color: #b8965a; }
+  .gold-line {
+    width: 60px;
+    height: 2px;
+    background: #b8965a;
+    margin: 1.5vw 0;
+  }
+  .gold-line-center {
+    width: 60px;
+    height: 2px;
+    background: #b8965a;
+    margin: 1.5vw auto;
+  }
+
+  .subtitle {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.1vw;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #b8965a;
+    font-weight: 300;
+  }
+
+  .small-caps {
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+  }
+
+  blockquote {
+    border-left: 3px solid #b8965a;
+    padding-left: 2vw;
+    margin: 2vw 0;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.3vw;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  /* Image placeholders */
+  .placeholder {
+    background: #f2f0ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-style: italic;
+    font-size: 1vw;
+    border: 1px solid #e5e0d8;
+  }
+
+  .placeholder-full {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+  }
+
+  .placeholder-half {
+    width: 48%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+
+  .placeholder-project {
+    width: 50%;
+    height: 70%;
+    flex-shrink: 0;
+  }
+
+  /* Layouts */
+  .two-col {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    flex: 1;
+  }
+
+  .col { flex: 1; }
+
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2vw;
+    margin-top: 2vw;
+  }
+
+  .logo-box {
+    background: #f7f5f2;
+    border: 1px solid #e8e4de;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85vw;
+    color: #888;
+    font-style: italic;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw 4vw;
+    margin-top: 2vw;
+  }
+
+  .team-member h3 {
+    font-size: 1.15vw;
+    margin-bottom: 0.3vw;
+  }
+
+  .team-member p {
+    font-size: 0.9vw;
+    color: #b8965a;
+    font-weight: 500;
+  }
+
+  .team-member .role {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  /* Cover specific */
+  .cover {
+    background: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 8vw;
+  }
+
+  .cover h1 {
+    font-size: 4vw;
+    letter-spacing: 0.18em;
+    color: #fff;
+    margin-bottom: 1vw;
+  }
+
+  .cover .subtitle {
+    color: #b8965a;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+  }
+
+  .cover .contact-line {
+    font-size: 0.9vw;
+    color: #888;
+    letter-spacing: 0.15em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  .cover .placeholder-full {
+    opacity: 0.3;
+  }
+
+  .cover-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Contact slide */
+  .contact-slide {
+    text-align: center;
+  }
+
+  .contact-slide h2 {
+    font-size: 2.8vw;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.5vw;
+  }
+
+  .contact-info {
+    font-size: 1vw;
+    line-height: 2.2;
+    color: #555;
+    margin-top: 2vw;
+  }
+
+  .contact-info a {
+    color: #b8965a;
+    text-decoration: none;
+  }
+
+  /* Service items */
+  .service-item {
+    margin-bottom: 1.8vw;
+  }
+
+  .service-item h3 {
+    font-size: 1.15vw;
+    color: #1a1a1a;
+    margin-bottom: 0.3vw;
+  }
+
+  .service-item p {
+    font-size: 0.95vw;
+    color: #555;
+  }
+
+  /* Project slides */
+  .project-slide .two-col {
+    align-items: stretch;
+  }
+
+  .project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-text .meta {
+    font-size: 0.85vw;
+    color: #b8965a;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5vw;
+    font-weight: 600;
+  }
+
+  .project-text h2 {
+    margin-bottom: 1vw;
+  }
+
+  .project-text p {
+    margin-bottom: 1vw;
+  }
+
+  .project-text ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .project-text ul li {
+    padding-left: 1.2em;
+    position: relative;
+    margin-bottom: 0.4vw;
+    font-size: 0.95vw;
+  }
+
+  .project-text ul li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #b8965a;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================ -->
+<!-- SLIDE 1: COVER -->
+<!-- ============================================ -->
+<div class="slide cover">
+  <div class="placeholder placeholder-full">[ COVER IMAGE — existing hero photo ]</div>
+  <div class="cover-content">
+    <h1>HIGNEY INTERNATIONAL</h1>
+    <div class="subtitle">Bespoke Design &amp; Fulfillment</div>
+    <div class="gold-line-center"></div>
+    <div class="contact-line">HOLLYWOOD, FLORIDA&ensp;|&ensp;954-444-8754</div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 2: ABOUT -->
+<!-- ============================================ -->
+<div class="slide">
+  <div class="two-col">
+    <div class="col">
+      <h4>About</h4>
+      <h2>Design Informed<br>by Operations</h2>
+      <div class="gold-line"></div>
+      <p>Peter Higney founded Higney International after 25 years in global hospitality — designing, building, and operating venues across four continents. He created the Nikki Beach brand, then ran 12 beach clubs and hotels worldwide as COO before rising to VP of Hotel Development.</p>
+      <br>
+      <p>That operational DNA is what separates HI from every other design firm. Every layout, material choice, and furniture specification is informed by what actually drives revenue: table turns, covers per shift, service flow, and the guest experience.</p>
+      <br>
+      <blockquote>"Creating venues that evoke an emotional response through their aesthetics is what drives us in pursuit of perfection."</blockquote>
+      <p style="font-size:0.85vw; color:#999; margin-top:0.3vw;">— Peter Higney, Founder &amp; CEO</p>
+    </div>
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ PETER HIGNEY — portrait or on-site photo ]</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 3: SERVICES — DESIGN -->
+<!-- ============================================ -->
+<div class="slide">
+  <h4>Services</h4>
+  <h2>Design</h2>
+  <div class="gold-line"></div>
+  <p style="max-width:55vw; margin-bottom:2.5vw;">From initial concept to final specifications — we create spaces that perform operationally, not just aesthetically. Every decision is rooted in how venues actually run.</p>
+
+  <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap: 2vw 5vw;">
+    <div class="service-item">
+      <h3>Scope Analysis</h3>
+      <p>On-site assessment, FF&amp;E audit, pricing &amp; market analysis, and value engineering to establish a clear project roadmap.</p>
+    </div>
+    <div class="service-item">
+      <h3>Schematic Design</h3>
+      <p>Mood boards, floor plans, material palettes, and preliminary FF&amp;E selections that align design intent with operational goals.</p>
+    </div>
+    <div class="service-item">
+      <h3>Design Development</h3>
+      <p>Photorealistic renderings, model rooms, tagged floor plans, and final selections — coordinated with architects and ownership teams.</p>
+    </div>
+    <div class="service-item">
+      <h3>Specification &amp; Documentation</h3>
+      <p>Complete FF&amp;E spec books, bills of quantity, and RFQ-ready packages with formal stakeholder approval at each gate.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 4: SERVICES — FULFILLMENT & PROCUREMENT -->
+<!-- ============================================ -->
+<div class="slide">
+  <h4>Services</h4>
+  <h2>Fulfillment &amp; Procurement</h2>
+  <div class="gold-line"></div>
+  <p style="max-width:55vw; margin-bottom:2.5vw;">From purchase order to delivery — we source it, buy it, and ship it. Direct manufacturer relationships across the US, Europe, Vietnam, and Indonesia ensure premium quality at the best possible value.</p>
+
+  <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap: 2vw 5vw;">
+    <div class="service-item">
+      <h3>Global Sourcing</h3>
+      <p>Direct relationships with leading manufacturers and trusted factories worldwide — eliminating middlemen and maximizing value.</p>
+    </div>
+    <div class="service-item">
+      <h3>Purchasing &amp; Trust Management</h3>
+      <p>Dedicated trust accounts with transparent monthly reconciliation. Every dollar tracked, every purchase documented.</p>
+    </div>
+    <div class="service-item">
+      <h3>Logistics Coordination</h3>
+      <p>Freight, customs brokerage, and delivery management. Warehousing and installation coordinated through trusted partners.</p>
+    </div>
+    <div class="service-item">
+      <h3>Construction Administration</h3>
+      <p>Shop drawing review, sample approvals, RFI management, site visits, and punch list — ensuring design intent survives installation.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 5: SERVICES — CUSTOM FABRICATION -->
+<!-- ============================================ -->
+<div class="slide">
+  <div class="two-col">
+    <div class="col">
+      <h4>Services</h4>
+      <h2>Custom Fabrication</h2>
+      <div class="gold-line"></div>
+      <p>When off-the-shelf won't do, we design and manufacture bespoke pieces to your exact specifications. From concept sketches through sampling, material testing, and production — every piece is built to distinguish your venue in a competitive market.</p>
+      <br>
+      <p>We work with certified manufacturing partners who meet our standards for quality, durability, and craftsmanship. Every custom piece goes through rigorous sampling and approval before production begins.</p>
+      <br>
+      <p style="color:#b8965a; font-weight:500;">The result: furniture and fixtures that exist nowhere else — designed for your space, your brand, your operations.</p>
+    </div>
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ CUSTOM FABRICATION — sample piece or factory photo ]</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 6: LIORA & CO -->
+<!-- ============================================ -->
+<div class="slide">
+  <div class="two-col">
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ LIORA &amp; CO — collection hero image ]</div>
+    </div>
+    <div class="col">
+      <h4>Our Brand</h4>
+      <h2>Liora &amp; Co</h2>
+      <div class="gold-line"></div>
+      <p>Higney International doesn't just source furniture — we create it. Liora &amp; Co is our premium furniture brand, offering 12+ curated collections designed for luxury hospitality and high-end residential environments.</p>
+      <br>
+      <p>Manufactured by our trusted suppliers in Indonesia, Turkey, France, and Vietnam, each collection balances timeless design with the durability that commercial environments demand.</p>
+      <br>
+      <p style="font-size:0.9vw; color:#b8965a; letter-spacing:0.08em;">lioraandcompany.com</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 7: CLIENTS -->
+<!-- ============================================ -->
+<div class="slide" style="text-align:center;">
+  <h4>Our Clients</h4>
+  <h2>Trusted by Industry Leaders</h2>
+  <div class="gold-line-center"></div>
+  <div class="logo-grid" style="margin-top:3vw;">
+    <div class="logo-box">[ Ritz-Carlton ]</div>
+    <div class="logo-box">[ Four Seasons ]</div>
+    <div class="logo-box">[ Tate Capital ]</div>
+    <div class="logo-box">[ Knallhart Management Group ]</div>
+    <div class="logo-box">[ Nikki Beach ]</div>
+    <div class="logo-box">[ Kimpton Hotels ]</div>
+    <div class="logo-box">[ Brinker International ]</div>
+    <div class="logo-box">[ CLIENT LOGO ]</div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 8: TRADE PARTNERS -->
+<!-- ============================================ -->
+<div class="slide" style="text-align:center;">
+  <h4>Trade Partners</h4>
+  <h2>Global Manufacturer Relationships</h2>
+  <div class="gold-line-center"></div>
+  <div class="logo-grid" style="margin-top:3vw;">
+    <div class="logo-box">[ Brown Jordan ]</div>
+    <div class="logo-box">[ Bernhardt Hospitality ]</div>
+    <div class="logo-box">[ Walters Wicker ]</div>
+    <div class="logo-box">[ Armani Casa ]</div>
+    <div class="logo-box">[ Perennials ]</div>
+    <div class="logo-box">[ Artistic Tile ]</div>
+    <div class="logo-box">[ Artistic Frame ]</div>
+    <div class="logo-box">[ Tuuci ]</div>
+    <div class="logo-box">[ Vietnam Factory Partners ]</div>
+    <div class="logo-box">[ Indonesia Factory Partners ]</div>
+    <div class="logo-box">[ PARTNER LOGO ]</div>
+    <div class="logo-box">[ PARTNER LOGO ]</div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 9: RITZ-CARLTON BAL HARBOUR -->
+<!-- ============================================ -->
+<div class="slide project-slide">
+  <div class="two-col">
+    <div class="col project-text">
+      <div class="meta">Current Project</div>
+      <h2>Ritz-Carlton<br>Bal Harbour</h2>
+      <div class="gold-line"></div>
+      <p>A complete retrofit of 12,000+ square feet of outdoor space and amenities at one of South Florida's most iconic properties.</p>
+      <ul>
+        <li>New F&amp;B facilities and service infrastructure</li>
+        <li>Pool redesign and VIP cabana program</li>
+        <li>Full FF&amp;E design and procurement</li>
+        <li>Reopening 2026</li>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ RITZ-CARLTON BAL HARBOUR — project rendering or site photo ]</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 10: WG HOTEL -->
+<!-- ============================================ -->
+<div class="slide project-slide">
+  <div class="two-col">
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ WG HOTEL — rendering or concept art ]</div>
+    </div>
+    <div class="col project-text">
+      <div class="meta">Current Project</div>
+      <h2>WG Hotel<br><span style="font-size:0.6em; color:#888;">Winter Garden, Florida</span></h2>
+      <div class="gold-line"></div>
+      <p>A unique 66-room hotel development bringing modern design with a timeless twist to one of Central Florida's most charming communities.</p>
+      <ul>
+        <li>Full interior design — concept through specification</li>
+        <li>FF&amp;E procurement and logistics</li>
+        <li>Modern aesthetic with heritage-inspired details</li>
+        <li>Opening 2028</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 11: 40 EDGEWATER -->
+<!-- ============================================ -->
+<div class="slide project-slide">
+  <div class="two-col">
+    <div class="col project-text">
+      <div class="meta">Current Project</div>
+      <h2>40 Edgewater<br><span style="font-size:0.6em; color:#888;">Great Neck, New York</span></h2>
+      <div class="gold-line"></div>
+      <p>High-end residential procurement for a distinguished waterfront property. Indoor and outdoor furnishings curated to complement the architecture and Long Island Sound setting.</p>
+      <ul>
+        <li>Indoor &amp; outdoor FF&amp;E procurement</li>
+        <li>Premium manufacturer sourcing</li>
+        <li>White-glove delivery coordination</li>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ 40 EDGEWATER — property or interior photo ]</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 12: NIKKI BEACH BARBADOS -->
+<!-- ============================================ -->
+<div class="slide project-slide">
+  <div class="two-col">
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ NIKKI BEACH BARBADOS — venue photo ]</div>
+    </div>
+    <div class="col project-text">
+      <div class="meta">Legacy Project</div>
+      <h2>Nikki Beach<br>Barbados</h2>
+      <div class="gold-line"></div>
+      <p>Peter designed and built this location as a new build on the northwest coast of Barbados — the first luxury beach club on the island.</p>
+      <ul>
+        <li>Swim-up octagon wet bar</li>
+        <li>Oversized luxury pool beds</li>
+        <li>VIP cabana program</li>
+        <li>Ground-up design and construction</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 13: NIKKI BEACH PORTO CERVO & COSTA SMERALDA -->
+<!-- ============================================ -->
+<div class="slide project-slide">
+  <div class="two-col">
+    <div class="col project-text">
+      <div class="meta">Legacy Project</div>
+      <h2>Nikki Beach<br>Porto Cervo &amp; Costa Smeralda</h2>
+      <div class="gold-line"></div>
+      <p>Peter designed a pop-up F&amp;B outlet on the marina front alongside Ferrari, Maserati, Bugatti, and Breitling — positioning Nikki Beach among the world's most exclusive brands.</p>
+      <br>
+      <p>He also designed and constructed a beach club accessible only by boat for the ultra-luxury demographic — a temporary venue erected and deconstructed annually after 90-day seasons on Sardinia's legendary Emerald Coast.</p>
+    </div>
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ NIKKI BEACH PORTO CERVO — venue or marina photo ]</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 14: NIKKI BEACH VERSILIA & KOH SAMUI -->
+<!-- ============================================ -->
+<div class="slide project-slide">
+  <div class="two-col">
+    <div class="col">
+      <div class="placeholder" style="width:100%; height:100%; min-height:28vw;">[ NIKKI BEACH VERSILIA &amp; KOH SAMUI — venue photos ]</div>
+    </div>
+    <div class="col project-text">
+      <div class="meta">Legacy Projects</div>
+      <h2>Nikki Beach<br>Versilia &amp; Koh Samui</h2>
+      <div class="gold-line"></div>
+      <p><strong>Versilia, Italy</strong> — Peter rebranded this Mediterranean beach club featuring a Carrara marble pool, swim-up bar, and plush sun beds. He redesigned operations in year two to significantly increase annual volume.</p>
+      <br>
+      <p><strong>Koh Samui, Thailand</strong> — Peter operated as Regional Director for this iconic Thai island location, overseeing all aspects of the beach club and resort operations in Southeast Asia.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 15: THE TEAM -->
+<!-- ============================================ -->
+<div class="slide" style="text-align:center;">
+  <h4>The Team</h4>
+  <h2>The People Behind the Work</h2>
+  <div class="gold-line-center"></div>
+
+  <div class="team-grid" style="text-align:left; margin-top:4vw;">
+    <div class="team-member">
+      <div class="placeholder" style="width:100%; height:10vw; margin-bottom:1vw;">[ HEADSHOT ]</div>
+      <h3>Peter Higney</h3>
+      <p class="role">CEO / Design &amp; Strategy</p>
+    </div>
+    <div class="team-member">
+      <div class="placeholder" style="width:100%; height:10vw; margin-bottom:1vw;">[ HEADSHOT ]</div>
+      <h3>Shameen Higney</h3>
+      <p class="role">Finance &amp; Logistics</p>
+    </div>
+    <div class="team-member">
+      <div class="placeholder" style="width:100%; height:10vw; margin-bottom:1vw;">[ HEADSHOT ]</div>
+      <h3>Austin Higney</h3>
+      <p class="role">CFO / Procurement &amp; Manufacturer Relations</p>
+    </div>
+    <div class="team-member">
+      <div class="placeholder" style="width:100%; height:10vw; margin-bottom:1vw;">[ HEADSHOT ]</div>
+      <h3>Michael Sin</h3>
+      <p class="role">Sales &amp; Business Development</p>
+    </div>
+    <div class="team-member">
+      <div class="placeholder" style="width:100%; height:10vw; margin-bottom:1vw;">[ HEADSHOT ]</div>
+      <h3>Alexandra Dray</h3>
+      <p class="role">Lead Designer</p>
+    </div>
+    <div class="team-member">
+      <div class="placeholder" style="width:100%; height:10vw; margin-bottom:1vw;">[ HEADSHOT ]</div>
+      <h3>Toluwanimi Saka</h3>
+      <p class="role">Drafting &amp; Design</p>
+    </div>
+    <div class="team-member">
+      <div class="placeholder" style="width:100%; height:10vw; margin-bottom:1vw;">[ HEADSHOT ]</div>
+      <h3>Marian Roman</h3>
+      <p class="role">Financial Analysis</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- SLIDE 16: CONTACT / THANK YOU -->
+<!-- ============================================ -->
+<div class="slide contact-slide">
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+    <h2>HIGNEY INTERNATIONAL</h2>
+    <div class="subtitle" style="margin-bottom:1vw;">Thank You</div>
+    <div class="gold-line-center"></div>
+
+    <div class="contact-info">
+      1720 Harrison Street, Suite 16A<br>
+      Hollywood, FL 33020<br><br>
+      T: <strong>954-444-8754</strong><br>
+      E: <a href="mailto:hello@higneyintl.com">hello@higneyintl.com</a><br>
+      W: <a href="https://higney-international.com">higney-international.com</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
