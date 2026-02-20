@@ -2,6 +2,7 @@
 *Last updated: 2026-02-17 by Iris*
 
 ## Peter
+- [ ] Metro Lagoons — second floor layout (due Tue 2/25)
 - [ ] 40 Edgewater — design table + coffee table for TV room
 - [ ] 40 Edgewater — dining room chairs sent to Brittany, awaiting feedback
 - [x] ~~Ritz-Carlton BH — send updated renderings~~ (done 2/17)
