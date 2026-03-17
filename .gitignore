@@ -18,3 +18,5 @@ TOOLS.md
 MEMORY.md
 USER.md
 memory/
+node_modules/
+tmp/
