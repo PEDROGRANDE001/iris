@@ -4,6 +4,14 @@
     "gog": {
       "version": "1.0.0",
       "installedAt": 1771632490725
+    },
+    "gcalcli-calendar": {
+      "version": "3.0.0",
+      "installedAt": 1771635612730
+    },
+    "nano-pdf": {
+      "version": "1.0.0",
+      "installedAt": 1771635622754
     }
   }
 }
