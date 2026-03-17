@@ -20,3 +20,5 @@ USER.md
 memory/
 node_modules/
 tmp/
+*.pptx
+*.xlsx
