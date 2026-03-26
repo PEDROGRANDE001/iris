@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higney International</title>
+<style>
+  @page { size: letter; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    width: 8.5in;
+    height: 11in;
+    position: relative;
+    background: #fff;
+  }
+
+  /* Top accent bar */
+  .top-bar {
+    height: 6px;
+    background: linear-gradient(90deg, #1a1a1a 0%, #8b7355 100%);
+  }
+
+  .container {
+    padding: 0.5in 0.6in 0.4in;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.25in;
+    padding-bottom: 0.15in;
+    border-bottom: 1.5px solid #8b7355;
+  }
+  .company-name {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+  }
+  .company-name span {
+    font-weight: 300;
+    color: #8b7355;
+  }
+  .tagline {
+    font-size: 11px;
+    color: #666;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+  .contact-block {
+    text-align: right;
+    font-size: 9px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  /* Intro */
+  .intro {
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: #333;
+    margin-bottom: 0.25in;
+  }
+  .intro strong { color: #1a1a1a; }
+
+  /* Two column layout */
+  .columns {
+    display: flex;
+    gap: 0.35in;
+    margin-bottom: 0.2in;
+  }
+  .col-left { flex: 1.15; }
+  .col-right { flex: 0.85; }
+
+  /* Section headers */
+  .section-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #8b7355;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e0d8cc;
+  }
+
+  /* Service items */
+  .service-item {
+    margin-bottom: 12px;
+  }
+  .service-item h3 {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+  }
+  .service-item p {
+    font-size: 10px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  /* Differentiator box */
+  .diff-box {
+    background: #f8f6f2;
+    border-left: 3px solid #8b7355;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+  }
+  .diff-box h3 {
+    font-size: 11px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+  }
+  .diff-box p {
+    font-size: 10px;
+    color: #444;
+    line-height: 1.55;
+  }
+
+  /* Client logos / names */
+  .clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    margin-top: 8px;
+  }
+  .client-tag {
+    font-size: 9.5px;
+    color: #555;
+    font-weight: 500;
+    padding: 3px 0;
+  }
+
+  /* Stats row */
+  .stats-row {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0.2in;
+    border-top: 1px solid #e0d8cc;
+    border-bottom: 1px solid #e0d8cc;
+  }
+  .stat {
+    flex: 1;
+    text-align: center;
+    padding: 12px 8px;
+    border-right: 1px solid #e0d8cc;
+  }
+  .stat:last-child { border-right: none; }
+  .stat-number {
+    font-size: 22px;
+    font-weight: 700;
+    color: #8b7355;
+  }
+  .stat-label {
+    font-size: 8.5px;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2px;
+  }
+
+  /* Bottom bar */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1a1a1a;
+    color: #ccc;
+    padding: 12px 0.6in;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8.5px;
+    letter-spacing: 0.5px;
+  }
+  .footer a { color: #c9b88c; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="top-bar"></div>
+
+<div class="container">
+
+  <div class="header">
+    <div>
+      <div class="company-name">HIGNEY <span>INTERNATIONAL</span></div>
+      <div class="tagline">Hospitality FF&E — Concept to Completion</div>
+    </div>
+    <div class="contact-block">
+      1720 Harrison St, Suite 16A<br>
+      Hollywood, FL 33020<br>
+      954-444-8754<br>
+      info@higneyintl.com
+    </div>
+  </div>
+
+  <div class="intro">
+    Higney International is a <strong>full-service FF&E design, procurement, and project management firm</strong> for luxury hospitality. 
+    We take projects from concept through delivery — managing design, budgeting, sourcing, manufacturing oversight, logistics, and 
+    on-site coordination. Founded by <strong>Peter Higney</strong>, who spent <strong>25 years operating beach clubs, hotels, and 
+    restaurants worldwide as COO of Nikki Beach</strong> — bringing a rare operator's perspective to every design decision.
+  </div>
+
+  <div class="stats-row">
+    <div class="stat">
+      <div class="stat-number">25+</div>
+      <div class="stat-label">Years in Hospitality</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">12</div>
+      <div class="stat-label">Countries Operated In</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">80+</div>
+      <div class="stat-label">Original Designs</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">100%</div>
+      <div class="stat-label">Vendor Agnostic</div>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col-left">
+      <div class="section-title">What We Do</div>
+
+      <div class="service-item">
+        <h3>FF&E Design &amp; Specification</h3>
+        <p>Complete furniture, fixture, and equipment packages — from concept sketches and 3D renderings through detailed specifications and construction drawings.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Procurement &amp; Budget Management</h3>
+        <p>Vendor-agnostic sourcing from the world's best manufacturers. We find the right product at the right price — whether that's a premium European maker or a cost-effective production partner.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Manufacturing Oversight</h3>
+        <p>Quality control, shop drawing review, material approvals, and production timeline management across our global network of vetted manufacturers.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Logistics &amp; Delivery</h3>
+        <p>International shipping coordination, warehousing, customs clearance, and white-glove delivery to site — ready for your installation team.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Value Engineering</h3>
+        <p>We know what works in the field because we've operated these venues. That means smarter material choices, realistic budgets, and designs that survive real-world hospitality use.</p>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <div class="diff-box">
+        <h3>The Operator's Advantage</h3>
+        <p>Most FF&E firms design from a catalog. We design from experience. Peter Higney operated 12 beach clubs and multiple hotels across four continents — managing the furniture, the guests, the weather, and the wear. That operational DNA shapes every specification we write. We don't just make it beautiful. We make it last.</p>
+      </div>
+
+      <div class="section-title">Select Clients</div>
+      <div class="clients-list">
+        <div class="client-tag">Ritz-Carlton Bal Harbour</div>
+        <div class="client-tag">The Chatwal Hotel NYC</div>
+        <div class="client-tag">Four Seasons Costa Rica</div>
+        <div class="client-tag">Nikki Beach Global</div>
+        <div class="client-tag">Metro Lagoons</div>
+        <div class="client-tag">Kimpton Angler's</div>
+        <div class="client-tag">Maggiano's / Brinker</div>
+        <div class="client-tag">WG Hotel</div>
+      </div>
+
+      <div style="margin-top: 18px;">
+        <div class="section-title">Sectors</div>
+        <div class="clients-list">
+          <div class="client-tag">Luxury Resorts</div>
+          <div class="client-tag">Beach Clubs</div>
+          <div class="client-tag">Boutique Hotels</div>
+          <div class="client-tag">Restaurants &amp; Bars</div>
+          <div class="client-tag">Pool &amp; Spa</div>
+          <div class="client-tag">Residential Hospitality</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <div>© 2026 Higney International LLC</div>
+  <div><a href="https://higneyintl.com">higneyintl.com</a></div>
+</div>
+
+</body>
+</html>

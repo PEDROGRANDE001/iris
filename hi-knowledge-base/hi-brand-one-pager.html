@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higney International — Hospitality FF&E</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 0.6in 0.7in;
+    position: relative;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #1a1a1a;
+  }
+
+  .header-left h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+
+  .header-left .tagline {
+    font-size: 13px;
+    font-weight: 400;
+    color: #555;
+    margin-top: 4px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .header-right {
+    text-align: right;
+    font-size: 11px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  /* Lead statement */
+  .lead {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 28px;
+    max-width: 95%;
+  }
+
+  .lead strong {
+    color: #1a1a1a;
+  }
+
+  /* Section */
+  .section {
+    margin-bottom: 24px;
+  }
+
+  .section-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+  }
+
+  /* Two column layout */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  /* Service list */
+  .services {
+    list-style: none;
+  }
+
+  .services li {
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .services li:last-child {
+    border-bottom: none;
+  }
+
+  .services .icon {
+    font-size: 11px;
+    color: #999;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .services .label {
+    font-weight: 500;
+  }
+
+  .services .desc {
+    color: #666;
+  }
+
+  /* Brand partners */
+  .brand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .brand-card {
+    background: #f8f8f8;
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+
+  .brand-card .name {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+
+  .brand-card .detail {
+    font-size: 11px;
+    color: #666;
+    line-height: 1.4;
+  }
+
+  .brand-card .origin {
+    font-size: 10px;
+    color: #999;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* Differentiators */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  .diff-item {
+    text-align: center;
+    padding: 16px 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+  }
+
+  .diff-item .number {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1;
+  }
+
+  .diff-item .unit {
+    font-size: 11px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+  }
+
+  .diff-item .context {
+    font-size: 11px;
+    color: #666;
+    margin-top: 6px;
+    line-height: 1.3;
+  }
+
+  /* Projects */
+  .project-list {
+    list-style: none;
+  }
+
+  .project-list li {
+    font-size: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-list li:last-child {
+    border-bottom: none;
+  }
+
+  .project-list .pname {
+    font-weight: 500;
+  }
+
+  .project-list .ptype {
+    color: #888;
+    font-size: 11px;
+  }
+
+  /* Footer */
+  .footer {
+    position: absolute;
+    bottom: 0.6in;
+    left: 0.7in;
+    right: 0.7in;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+    color: #888;
+  }
+
+  .footer a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  /* Quote block */
+  .quote {
+    background: #f5f5f0;
+    border-left: 3px solid #1a1a1a;
+    padding: 14px 18px;
+    margin: 20px 0;
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .quote .attribution {
+    font-style: normal;
+    font-size: 11px;
+    color: #888;
+    margin-top: 6px;
+  }
+
+  @media print {
+    .page {
+      padding: 0.5in 0.6in;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <h1>Higney International</h1>
+      <div class="tagline">Hospitality FF&E — Design Through Delivery</div>
+    </div>
+    <div class="header-right">
+      1720 Harrison St, Suite 16A<br>
+      Hollywood, Florida 33020<br>
+      954-444-8754<br>
+      higney-international.com
+    </div>
+  </div>
+
+  <!-- Lead -->
+  <p class="lead">
+    Higney International is a hospitality FF&E firm built on something most in this space lack: <strong>25 years of actually running luxury venues</strong>. Our founder designed the Nikki Beach brand and operated 12 properties across four continents — from pool decks to presidential suites. We don't just specify furniture. We specify what survives.
+  </p>
+
+  <!-- Differentiators -->
+  <div class="section">
+    <div class="diff-grid">
+      <div class="diff-item">
+        <div class="number">25</div>
+        <div class="unit">Years</div>
+        <div class="context">Operating luxury hospitality venues worldwide</div>
+      </div>
+      <div class="diff-item">
+        <div class="number">12</div>
+        <div class="unit">Properties</div>
+        <div class="context">Beach clubs, hotels & resorts managed globally</div>
+      </div>
+      <div class="diff-item">
+        <div class="number">100%</div>
+        <div class="unit">Operator-Led</div>
+        <div class="context">Every spec informed by real-world operations</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Two columns: Services + Brands -->
+  <div class="two-col">
+
+    <!-- Services -->
+    <div class="section">
+      <div class="section-title">What We Do</div>
+      <ul class="services">
+        <li>
+          <span class="icon">→</span>
+          <div><span class="label">FF&E Specification & Procurement</span><br>
+          <span class="desc">Full procurement from concept through delivery. We source, manage, and coordinate — you get turnkey.</span></div>
+        </li>
+        <li>
+          <span class="icon">→</span>
+          <div><span class="label">Design Services</span><br>
+          <span class="desc">Pool decks, outdoor dining, lobbies, F&B areas. Designed by people who've operated them.</span></div>
+        </li>
+        <li>
+          <span class="icon">→</span>
+          <div><span class="label">Custom Fabrication</span><br>
+          <span class="desc">Bespoke furniture, stone work, shade structures — manufactured to spec through our factory partnerships.</span></div>
+        </li>
+        <li>
+          <span class="icon">→</span>
+          <div><span class="label">Warehousing & Logistics</span><br>
+          <span class="desc">Receiving, inspection, staging, and white-glove delivery from our South Florida facility.</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Brand Partners -->
+    <div class="section">
+      <div class="section-title">Select Brand Partners</div>
+      <div class="brand-grid">
+        <div class="brand-card">
+          <div class="name">TUUCI</div>
+          <div class="detail">Premium shade architecture — umbrellas, parasols, cabanas, pavilions</div>
+          <div class="origin">Made in Miami, FL</div>
+        </div>
+        <div class="brand-card">
+          <div class="name">Telescope Casual</div>
+          <div class="detail">Contract outdoor furniture — sling seating, chaises, dining, MGP collections</div>
+          <div class="origin">Made in Granville, NY</div>
+        </div>
+        <div class="brand-card">
+          <div class="name">Eurasia Stone</div>
+          <div class="detail">Custom stone furniture & surfaces — travertine, marble, water jet fabrication</div>
+          <div class="origin">Made in New York, NY</div>
+        </div>
+        <div class="brand-card">
+          <div class="name">Artistic Frame</div>
+          <div class="detail">Custom upholstered seating — dining chairs, barstools, banquettes for hospitality</div>
+          <div class="origin">Made in New York, NY</div>
+        </div>
+      </div>
+      <p style="font-size: 11px; color: #999; margin-top: 10px; line-height: 1.4;">
+        Plus a curated network of leading American and international manufacturers across outdoor furniture, textiles, lighting, and specialty fabrication.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Quote -->
+  <div class="quote">
+    "Most FF&E companies hand you a catalog. We've spent 25 years on the other side — managing the venues, replacing what broke, listening to the staff who moved it every day. That changes what we specify."
+    <div class="attribution">— Peter Higney, CEO</div>
+  </div>
+
+  <!-- Select Projects -->
+  <div class="section">
+    <div class="section-title">Select Projects</div>
+    <ul class="project-list">
+      <li><span class="pname">Ritz-Carlton Bal Harbour</span> <span class="ptype">Pool & Outdoor Renovation</span></li>
+      <li><span class="pname">Four Seasons Costa Rica</span> <span class="ptype">Resort FF&E</span></li>
+      <li><span class="pname">Metro Lagoons</span> <span class="ptype">Multi-Site Lagoon & Amenity FF&E</span></li>
+      <li><span class="pname">Nikki Beach Worldwide</span> <span class="ptype">25 Years — Beach Clubs, Hotels & Resorts</span></li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div>
+      <strong>Peter Higney</strong>, CEO &nbsp;|&nbsp; peter@higneyintl.com<br>
+      <strong>Michael Sin</strong>, Director of Sales &nbsp;|&nbsp; michael@higneyintl.com
+    </div>
+    <div>
+      higney-international.com
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

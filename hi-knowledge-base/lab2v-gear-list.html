@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAB2V 2026 — Gear & Budget Tracker</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', sans-serif; background: #0d0d0d; color: #e0e0e0; padding: 24px; }
+  
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { font-size: 14px; color: #888; margin-bottom: 32px; }
+  .subtitle span { color: #f59e0b; font-weight: 500; }
+
+  .route-info {
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .route-info .item { text-align: center; }
+  .route-info .label { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #666; }
+  .route-info .value { font-size: 18px; font-weight: 600; margin-top: 4px; }
+
+  .section { margin-bottom: 28px; }
+  .section-title {
+    font-size: 11px; font-weight: 600; letter-spacing: 2px;
+    text-transform: uppercase; color: #f59e0b; margin-bottom: 12px;
+    padding-bottom: 6px; border-bottom: 1px solid #2a2a2a;
+  }
+
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 1px;
+    color: #666; text-align: left; padding: 8px 12px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  thead th:nth-child(1) { width: 36px; text-align: center; }
+  thead th:last-child { text-align: right; }
+
+  tbody td {
+    padding: 10px 12px; border-bottom: 1px solid #1a1a1a;
+    font-size: 13px; vertical-align: top;
+  }
+  tbody td:nth-child(1) { text-align: center; }
+  tbody td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .item-name { font-weight: 500; }
+  .item-detail { font-size: 11px; color: #888; margin-top: 2px; }
+  .item-note { font-size: 11px; color: #555; font-style: italic; }
+
+  input[type="checkbox"] {
+    width: 16px; height: 16px; accent-color: #f59e0b;
+    cursor: pointer; margin-top: 2px;
+  }
+
+  .price { color: #e0e0e0; font-weight: 500; }
+  .owned { color: #22c55e; font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  .totals-bar {
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .totals-bar .total-label { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+  .totals-bar .total-amount { font-size: 32px; font-weight: 700; color: #f59e0b; }
+  .totals-bar .total-note { font-size: 11px; color: #555; margin-top: 2px; }
+
+  .tag {
+    display: inline-block; font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.5px; padding: 2px 6px; border-radius: 3px;
+    margin-left: 6px; vertical-align: middle;
+  }
+  .tag-priority { background: #f59e0b22; color: #f59e0b; }
+  .tag-optional { background: #3b82f622; color: #3b82f6; }
+  .tag-owned { background: #22c55e22; color: #22c55e; }
+
+  .footer-note {
+    margin-top: 20px; font-size: 11px; color: #555; line-height: 1.6;
+    border-top: 1px solid #1a1a1a; padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+<h1>🏜️ LA → Barstow → Vegas 2026</h1>
+<div class="subtitle">Thanksgiving Weekend, November 2026 &nbsp;|&nbsp; Riders: <span>Peter & Patrick Higney</span> &nbsp;|&nbsp; Bike: <span>Honda XR650R</span></div>
+
+<div class="route-info">
+  <div class="item">
+    <div class="label">Total Distance</div>
+    <div class="value">~450 mi</div>
+  </div>
+  <div class="item">
+    <div class="label">Days</div>
+    <div class="value">2</div>
+  </div>
+  <div class="item">
+    <div class="label">Start</div>
+    <div class="value">Palmdale, CA</div>
+  </div>
+  <div class="item">
+    <div class="label">Finish</div>
+    <div class="value">Las Vegas, NV</div>
+  </div>
+</div>
+
+<!-- GEAR -->
+<div class="section">
+  <div class="section-title">Gear & Equipment</div>
+  <table>
+    <thead><tr><th>✓</th><th>Item</th><th>Est. Price</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Mosko Moto Reckless 40L V4.0 <span class="tag tag-priority">Priority</span></div>
+          <div class="item-detail">Modular soft luggage system, 28-56L configurable</div>
+        </td>
+        <td class="price">$649</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Garmin inReach Mini 2 <span class="tag tag-priority">Priority</span></div>
+          <div class="item-detail">Satellite SOS, two-way messaging. No cell service in the Mojave. Non-negotiable.</div>
+        </td>
+        <td class="price">$400</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Garmin Montana 700 (or GPSMAP 67)</div>
+          <div class="item-detail">GPS unit for GPX track files. Event distributes GPS data at registration. Montana has larger screen.</div>
+        </td>
+        <td class="price">$600</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Cardo Packtalk Edge (x2) <span class="tag tag-priority">Priority</span></div>
+          <div class="item-detail">Rider-to-rider comms + music/GPS audio. One for Peter, one for Patrick.</div>
+        </td>
+        <td class="price">$640</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Rotopax 1-Gallon Fuel Cells (x2)</div>
+          <div class="item-detail">DOT approved, mount to Mosko bags. XR650R needs 85+ mi range per event rules.</div>
+        </td>
+        <td class="price">$120</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" checked></td>
+        <td>
+          <div class="item-name">Hydration Pack (3L) <span class="tag tag-owned">Owned</span></div>
+          <div class="item-detail">Already have. Desert riding = minimum 3L.</div>
+        </td>
+        <td class="owned">Owned</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Medical / First Aid Kit</div>
+          <div class="item-detail">Trauma-grade: tourniquet, QuikClot, splint, snake bite kit, electrolytes</div>
+        </td>
+        <td class="price">$75</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Tire Repair Kit + CO2 Inflators</div>
+          <div class="item-detail">Plug kit, rubber cement, CO2 cartridges (x4). A flat in the Mojave is no joke.</div>
+        </td>
+        <td class="price">$45</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Spare Levers (Clutch + Brake)</div>
+          <div class="item-detail">XR650R levers snap easy on a drop. Carry spares.</div>
+        </td>
+        <td class="price">$30</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Spare Inner Tubes (Front + Rear) <span class="tag tag-priority">Priority</span></div>
+          <div class="item-detail">21" front, 18" rear (stock XR650R). A plug won't save a pinch flat. Carry one of each.</div>
+        </td>
+        <td class="price">$30</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Seat Concepts Comfort Seat <span class="tag tag-optional">Recommended</span></div>
+          <div class="item-detail">450 miles on a stock XR seat = misery. Foam + cover upgrade.</div>
+        </td>
+        <td class="price">$250</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Rally Windscreen</div>
+          <div class="item-detail">Even a small screen cuts fatigue on highway stretches. Baja Designs or Acerbis.</div>
+        </td>
+        <td class="price">$80</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Leatt Neck Brace <span class="tag tag-optional">Recommended</span></div>
+          <div class="item-detail">Desert terrain, long ride, two-up days. Cheap insurance.</div>
+        </td>
+        <td class="price">$300</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- TRAVEL & LOGISTICS -->
+<div class="section">
+  <div class="section-title">Travel & Logistics</div>
+  <table>
+    <thead><tr><th>✓</th><th>Item</th><th>Est. Price</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Flights: Fort Lauderdale → Los Angeles (roundtrip x2)</div>
+          <div class="item-detail">Peter + Patrick. Or one-way if riding back. Book early for Thanksgiving weekend.</div>
+        </td>
+        <td class="price">$800</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Hotel: Palmdale, CA — Thursday night</div>
+          <div class="item-detail">Registration is Thursday evening at 39375 5th St W, Palmdale. Stay nearby.</div>
+        </td>
+        <td class="price">$150</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Hotel: Barstow, CA — Friday night</div>
+          <div class="item-detail">Overnight stop. Day 1 ends here.</div>
+        </td>
+        <td class="price">$120</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Hotel: Las Vegas, NV — Saturday night</div>
+          <div class="item-detail">Finish line at 4500 W Tropicana Ave. Celebrate.</div>
+        </td>
+        <td class="price">$200</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" checked></td>
+        <td>
+          <div class="item-name">Bike Location <span class="tag tag-owned">Sorted</span></div>
+          <div class="item-detail">XR650R already at Patrick's house in Van Nuys. No shipping needed.</div>
+        </td>
+        <td class="owned">$0</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Bike Transport: Vegas → Van Nuys (return)</div>
+          <div class="item-detail">Ride back to Patrick's (~270 mi) or trailer it. Could also ship ~$300.</div>
+        </td>
+        <td class="price">$0</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Event Registration / Toy Donation</div>
+          <div class="item-detail">LAB2V requires AMA membership + $20 toy donation (or bring a toy)</div>
+        </td>
+        <td class="price">$20</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">AMA Membership (if not current)</div>
+          <div class="item-detail">Required for entry. Annual membership.</div>
+        </td>
+        <td class="price">$49</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Fuel (ride days)</div>
+          <div class="item-detail">~450 miles, figure 5-6 fill-ups between both days</div>
+        </td>
+        <td class="price">$60</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Food & Meals (3 days)</div>
+          <div class="item-detail">Thu dinner through Sat night Vegas</div>
+        </td>
+        <td class="price">$250</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Garmin inReach Satellite Plan</div>
+          <div class="item-detail">Monthly subscription required for SOS/messaging. ~$15-50/mo depending on plan.</div>
+        </td>
+        <td class="price">$35</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- TOOL KIT -->
+<div class="section">
+  <div class="section-title">Tool Kit</div>
+  <table>
+    <thead><tr><th>✓</th><th>Item</th><th>Est. Price</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">RAM Mount X-Grip + Handlebar Base <span class="tag tag-priority">Priority</span></div>
+          <div class="item-detail">For Garmin Montana/GPSMAP. Locks to handlebars or crossbar. Vibration dampener recommended.</div>
+        </td>
+        <td class="price">$65</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Tire Irons (3x Motion Pro)</div>
+          <div class="item-detail">Spoon-style, compact. Need 3 to change a tube trailside.</div>
+        </td>
+        <td class="price">$20</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Compact Wrench Set (8, 10, 12, 14mm)</div>
+          <div class="item-detail">Combo wrenches. Covers most XR650R fasteners.</div>
+        </td>
+        <td class="price">$25</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Socket Set (8, 10, 12mm) + Small Ratchet</div>
+          <div class="item-detail">1/4" drive, compact. For axle nuts and tight spaces.</div>
+        </td>
+        <td class="price">$20</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Multi-Bit Driver</div>
+          <div class="item-detail">T25, Phillips, flathead in one tool.</div>
+        </td>
+        <td class="price">$12</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Needle Nose Pliers + Vice Grips</div>
+          <div class="item-detail">Vice grips double as an emergency lever.</div>
+        </td>
+        <td class="price">$20</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Spoke Wrench</div>
+          <div class="item-detail">Match to XR650R spoke nipple size. Loose spokes = wobbly wheel.</div>
+        </td>
+        <td class="price">$8</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Chain Breaker + Master Link</div>
+          <div class="item-detail">If the chain snaps, this is the only fix. Carry a spare master link too.</div>
+        </td>
+        <td class="price">$25</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Spare Spark Plug</div>
+          <div class="item-detail">Fouled plug in the desert = walk. Weighs nothing.</div>
+        </td>
+        <td class="price">$5</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Emergency Repair Kit</div>
+          <div class="item-detail">Zip ties (20+), duct tape, baling wire, JB Weld stick, safety wire, spare fuses, electrical tape, small RTV silicone, chain lube</div>
+        </td>
+        <td class="price">$30</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Headlamp / Small Flashlight</div>
+          <div class="item-detail">Trailside repair in low light. Clip-on or headband style.</div>
+        </td>
+        <td class="price">$15</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- BIKE PREP -->
+<div class="section">
+  <div class="section-title">Bike Prep (XR650R)</div>
+  <table>
+    <thead><tr><th>✓</th><th>Item</th><th>Est. Price</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Full Service — Oil, Filter, Coolant, Chain, Sprockets</div>
+          <div class="item-detail">Pre-trip mechanical. Don't skip this.</div>
+        </td>
+        <td class="price">$300</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">New Tires (50/50 dual sport)</div>
+          <div class="item-detail">Dunlop D606 or Shinko 244. Highway + dirt capability.</div>
+        </td>
+        <td class="price">$200</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>
+          <div class="item-name">Sound Check — Under 96 dB</div>
+          <div class="item-detail">Event requirement. If aftermarket exhaust, may need repack or swap.</div>
+        </td>
+        <td class="price">$0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- TOTALS -->
+<div class="totals-bar">
+  <div>
+    <div class="total-label">Estimated Total Budget</div>
+    <div class="total-note">Prices are estimates — will refine as items are purchased</div>
+  </div>
+  <div style="text-align: right;">
+    <div class="total-amount">$4,718</div>
+    <div class="total-note">Gear: $3,219 &nbsp;|&nbsp; Tools: $245 &nbsp;|&nbsp; Travel: $684 &nbsp;|&nbsp; Bike Prep: $500 &nbsp;|&nbsp; Misc: $70</div>
+  </div>
+</div>
+
+<div class="footer-note">
+  <strong>Notes:</strong><br>
+  • Flight cost assumes Visa points may cover part/all — listed at cash price as placeholder<br>
+  • Patrick may already have some gear (comms, GPS) — confirm and adjust<br>
+  • Bike shipping: get quotes early, Thanksgiving is peak season<br>
+  • Book Palmdale + Barstow hotels ASAP — small towns fill up for this event<br>
+  • Review date: <strong>April 24, 2026</strong><br>
+  • Event info: <a href="https://labarstowvegas.com" style="color: #f59e0b;">labarstowvegas.com</a>
+</div>
+
+</body>
+</html>
