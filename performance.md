@@ -275,11 +275,61 @@ Still open (11 items): Frankford umbrella finishes (emailed Sarah Sanford 3/25),
 
 ## 11. Honest Assessment
 
-Peter, you ran hard this month. The Ritz is progressing, the brand pivot was overdue and smart, and the UMusic inbound proves the market sees your value. The sales blasts were a good forcing function even with the bounce problems.
+### What you did well
+The Ritz BH is moving. You showed up every week, shipped the sample board, got CDR approved, and maintained cadence with Hawkins and Melanie. The Metro Lagoons contract getting signed was real revenue. The UMusic inbound validates that your name still opens doors. The brand pivot on March 24 — killing the "we source whatever" identity and committing to American-made, operator-led curation — was the most important strategic decision of the month.
 
-The concern is spread. Between Ritz BH, Chatwal, new ventures (North, Moto Block, Stemsmiths), truck issues, and personal health matters — you're carrying a lot. The cash trend line needs attention. April should be about conversion: turning all the design work, meetings, and relationships into signed orders and collected deposits.
+### Where you fell short
 
-You've got the hardest thing to build in business — a reputation that makes CEOs cold-call you. Now cash the checks.
+**You closed $86K but your pipeline says you need $500K+.** Five active proposals totaling $31K won't keep the lights on. Four Seasons Papagayo and Hyatt Place Boca have been sitting since January/February with no movement. Those aren't active deals — they're stale. Either push them to decision or move them to Deferred and stop counting them.
+
+**The Ritz BH orders were supposed to close in March. They didn't.** You've been in design and meetings for months. At some point the meetings have to produce purchase orders. You're at the walkthrough today — this needs to convert to POs in April or you're just running an expensive design studio for free.
+
+**Chatwal is $125K sitting unsigned.** That's real money. What's the holdup? If it's on you to push, push. If it's dead, kill it and move on. It's been in limbo for weeks.
+
+**You spent meaningful time on three side ventures (North, Moto Block, Stemsmiths) while cash dropped from $286K to $167K.** That's a 42% decline. North is a pitch deck that went nowhere after Doug saw it. Moto Block is a domain you haven't bought. Stemsmiths is Doug's project, not yours. None of these generate revenue for HI. You can't afford hobbies right now — you can afford them when HI is clearing $50K/month consistently.
+
+**Your sales outreach had a 50% bounce rate.** That means half your effort was wasted. You sent 55+ emails and probably reached 25-30 real people. That's not a sales program — that's a spray and pray with dirty data. You moved to HubSpot but haven't actually fixed the underlying problem: your contact database is garbage. Before the next blast, every single email needs to be verified.
+
+**Monday.com is underutilized.** Client Projects board: empty. Deals board: empty. You've got an Active Proposals board that hasn't been updated since early March for most items. The Metro Lagoons board is well-maintained (credit to Shameen), but the rest of your Monday.com is a ghost town. If you're paying for a project management tool, use it or cancel it.
+
+**You owe people things and haven't delivered:**
+- Hillary Kent — Tulum Beach Club details (outstanding since March 24+)
+- Nora Taylor — Revised proposal review (outstanding since March 24+)
+- Frank Munoz / TUUCI — Education session follow-up
+- Michael Sin's vesting agreement — Austin still hasn't signed
+
+These are relationship debts. Every one you let slip makes HI look less professional.
+
+### The real talk
+
+You have a pattern: you're brilliant at starting things and slow at finishing them. You conceived North, built a 12-slide deck, and showed Doug — all in one day. That's incredible energy. But that same energy could have closed Chatwal or pushed Hyatt Place to decision.
+
+You're operating like a company that does $5M in revenue — attending every meeting, advising on Stemsmiths, designing pitch decks, researching motorcycle auctions — but you're billing like a company that does $1.4M with declining cash. The gap between ambition and execution is where companies die.
+
+**The math is simple:**
+- Cash: $167K and falling
+- Monthly burn: probably $30-40K (salaries, rent, overhead)
+- Runway: 4-5 months if nothing changes
+- Oliver arrives: May 17 (47 days)
+
+You're about to have a newborn and possibly 4 months of runway. That should focus the mind.
+
+### What April needs to look like
+
+1. **Close something every week.** POs from Ritz BH. Chatwal signed. Hyatt Place to decision. Four Seasons to decision. One of these needs to convert.
+2. **Stop starting new things.** No new ventures, no new pitch decks, no new domain research until HI cash is above $250K.
+3. **Fix the data before the next sales blast.** Verify every email. If you can't verify 100 contacts, verify 50 good ones. Quality over volume.
+4. **Clear your relationship debts.** Hillary, Nora, Frank, Michael Sin's agreement. This week.
+5. **Update Monday.com or kill it.** Either it reflects reality or it's a waste of money. Shameen's boards are clean. Yours aren't.
+6. **Book the Toronto flight.** Your mom is getting radiation. This isn't a "when I get around to it" item.
+
+### Bottom line
+
+You have the talent, the network, and the reputation. CEOs cold-call you. Marriott approved your CDR. You closed $86K in deals this month. That's not nothing.
+
+But talent without focus is just potential. And potential doesn't pay invoices, fund payroll, or support a family of five. April is about choosing fewer things and finishing them.
+
+No more side quests until the main quest is funded.
 
 ---
 
