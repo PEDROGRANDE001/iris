@@ -1,0 +1,46 @@
+Transmittal Report:
+Created by AutoCAD LT eTransmit Friday, March 27, 2026, 6:13 PM.
+
+Drawing:
+This is a transmittal based on X-PROPOSED SITE PLAN.dwg.
+
+Files:
+
+Root Drawing:
+	X-PROPOSED SITE PLAN.dwg
+
+PNG File References:
+	EPP TEXTURE\PALM.png
+	EPP TEXTURE\PLAM.png
+
+AutoCAD LT Plotter Configuration File References:
+	PlotCfgs\AutoCAD PDF (General Documentation).pc3
+	PlotCfgs\DWF6 ePlot.pc3
+
+The following files were excluded from the transmittal:
+	acadlt.fmp
+	Fonts\simplex.shx
+	Fonts\romans.shx
+	Fonts\arial.ttf
+	Fonts\ltypeshp.shx
+	Fonts\ariali.ttf
+	Fonts\verdanaz.ttf
+
+The following files could not be located:
+	Desktop\001_Page_2.jpg
+	MAP\RITZ SITE.jpg
+	2702 - 10295 Collins Ave - DTM.dwg
+
+
+Notes for distribution:
+
+Raster image files:
+Paths may be present on references to raster images.  Make sure these paths work or that the root drawing is using the correct references.
+
+.PC3 printer configuration files:
+Please copy these files to the AutoCAD LT Printer Configuration Search Path directory.
+
+The AutoCAD LT variable FONTALT was set to:
+C:\Users\epenton\AppData\Roaming\Autodesk\AutoCAD LT 2023\R29\enu\Support\simplex.shx
+Please make sure that the FONTALT variable is set to this file or an equivalent before opening any drawings.  All text styles with missing fonts are automatically set to this font.
+
