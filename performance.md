@@ -180,7 +180,83 @@ Peter's entrepreneurial instincts are sharp. North has legs if someone builds it
 
 ---
 
-## 8. Monday.com Task Execution
+## 8. HubSpot CRM — The Pipeline Reality
+
+### Closed Won (March)
+| Deal | Amount | Closed |
+|------|--------|--------|
+| Metro Lagoons — Furniture Procurement | $40,000 | Mar 6 |
+| DecoScape Commission | $6,600 | Mar 12 |
+| TRP (The Restaurant People) | $6,000 | Mar 12 |
+| Valrose Commission | $5,000 | Mar 12 |
+| Brian Mahoney — Cabana | $5,000 | Mar 10 |
+| 40 Edgewater Coffee Table | $900 | Mar 12 |
+| **Total Closed Won** | **$63,500** | |
+
+⚠️ **Note:** Metro Lagoons is $40K in HubSpot vs $80K in Monday.com. Which is correct? One system is wrong, and that's a $40K discrepancy Peter needs to reconcile.
+
+### Closed Lost (March)
+| Deal | Amount | Lost |
+|------|--------|------|
+| Brazil | TBD | Mar 27 |
+| **Chatwal Hotel NYC** | **$125,000** | Already marked lost |
+
+**Chatwal is dead.** It's been Closed Lost in HubSpot. That $125K design fee is gone. This wasn't flagged or discussed — it just quietly died in the CRM.
+
+### Active Pipeline — Discovery Stage
+| Deal | Amount | Last Modified |
+|------|--------|---------------|
+| Hyatt Place Boca | $6,000 | Mar 30 |
+| Ritz Carlton Palm Beach | $0 | Mar 10 |
+| 40 Edgewater Dining Chairs | $4,500 | Mar 12 |
+| U Hotels | $0 | Mar 27 |
+
+**UHotels has no dollar value.** The CEO of a Universal Music hospitality JV cold-called Peter, they had breakfast, and 11 days later the deal is at $0 in Discovery with no next step. This should be the hottest lead in the pipeline.
+
+### Active Pipeline — Proposal Stage
+| Deal | Amount | Last Modified |
+|------|--------|---------------|
+| Four Seasons Papagayo | $12,500 | Mar 10 |
+| Nikki Beach Marbella — Hinges | $3,250 | Feb 23 |
+| Deep Tables | $2,500 | Mar 12 |
+| Alison George — Tuuci Umbrellas | $1,660 | Mar 10 |
+| Design Pool — Parc Soleil Hilton | $1,100 | Mar 10 |
+
+**Total active proposal value: $21,010.** Four Seasons is the only meaningful one and it hasn't been touched in 3 weeks.
+
+### The Directors Chairs Graveyard — 25 Deals at Lead Stage
+Created Feb 23. Last modified: mostly Mar 2. **None have advanced in a month.**
+
+Top values sitting untouched:
+- The Breakers Palm Beach: $10,000
+- Margaritaville Resort Orlando: $10,000
+- Shooters Waterfront: $7,500
+- Bokamper's: $7,500
+- 1 Hotel South Beach: $7,500
+- Paddlefish Disney Springs: $5,000
+- Acqualina Resort: $5,000
+- Eola Food Hall: $5,000
+
+**That's $57,500 in potential revenue parked at Lead with zero follow-up.** If Michael Sin is supposed to be working these, there's no evidence of it in the CRM.
+
+### Manufacturing Leads — 18 Deals at Lead Stage
+All created Feb 23. All untouched since early March. Only Parker Hospitality has a value ($15K). The rest are $0. These aren't deals — they're a wish list.
+
+### HubSpot Health Score: D
+
+| Issue | Count |
+|-------|-------|
+| Deals with $0 or null amount | 50+ |
+| Deals untouched for 3+ weeks | 60+ |
+| Deals at Lead stage with no advancement | 43 |
+| Discovery deals with no value | 2 (Ritz PB, UHotels) |
+| Pipeline stages used | 3 of 6 (Lead, Discovery, Proposal) — Invoice Sent stage has 0 deals |
+
+**The CRM was set up in February with 82 contacts and 25 deals. By end of March, there are 90+ deals — but the vast majority are dead leads that nobody is working.** The pipeline is inflated, not healthy. Closing 7 deals while 43 sit untouched isn't a sales operation — it's Peter closing his own deals while the prospecting engine stalls.
+
+---
+
+## 9. Monday.com Task Execution
 
 ### Deals Closed in March (Active Proposals → Won)
 | Deal | Value | Closed | Owner |
@@ -241,15 +317,17 @@ Still open (11 items): Frankford umbrella finishes (emailed Sarah Sanford 3/25),
 
 ---
 
-## 9. Metrics
+## 10. Metrics
 
 | Metric | Value |
 |--------|-------|
 | Calendar events | 85+ |
 | RCBH meetings | 8 |
 | Sales emails sent | ~55-60 |
-| Deals closed (March) | 3 ($86,800+) |
-| Active pipeline | $31,760 (excl. Ritz/Chatwal) |
+| **Deals closed (March per HubSpot)** | **7 ($63,500)** |
+| **Chatwal** | **Closed Lost ($125K gone)** |
+| Active pipeline (Discovery + Proposal) | $25,510 |
+| Deals at Lead with no movement | 43 ($57K+ in Directors Chairs alone) |
 | Metro Lagoons tasks completed | 30+ (Peter: 8, Shameen: 20+) |
 | Ritz South Lawn items ready | 5 of 11 |
 | New leads generated | 3-5 (UMusic, Samia, Malcolm, Maxime, US Capital) |
@@ -257,6 +335,7 @@ Still open (11 items): Frankford umbrella finishes (emailed Sarah Sanford 3/25),
 | New business concepts | 2 (North, Moto Block) |
 | CRM contacts cleaned | 17+ |
 | Bounce rate (first blast) | 50% → improved |
+| **HubSpot health score** | **D** |
 
 ---
 
@@ -336,17 +415,17 @@ The Ritz BH is moving. You showed up every week, shipped the sample board, got C
 
 ### Where you fell short
 
-**You closed $86K but your pipeline says you need $500K+.** Five active proposals totaling $31K won't keep the lights on. Four Seasons Papagayo and Hyatt Place Boca have been sitting since January/February with no movement. Those aren't active deals — they're stale. Either push them to decision or move them to Deferred and stop counting them.
+**HubSpot says you closed $63.5K — not $86K.** Metro Lagoons is $40K in HubSpot vs $80K in Monday.com. One of your systems is lying and you don't know which. Meanwhile, your pipeline says you need $500K+. Five active proposals totaling $31K won't keep the lights on. Four Seasons Papagayo and Hyatt Place Boca have been sitting since January/February with no movement. Those aren't active deals — they're stale. Either push them to decision or move them to Deferred and stop counting them.
 
 **The Ritz BH orders were supposed to close in March. They didn't.** You've been in design and meetings for months. At some point the meetings have to produce purchase orders. You're at the walkthrough today — this needs to convert to POs in April or you're just running an expensive design studio for free.
 
-**Chatwal is $125K sitting unsigned.** That's real money. What's the holdup? If it's on you to push, push. If it's dead, kill it and move on. It's been in limbo for weeks.
+**Chatwal is dead.** It's already Closed Lost in HubSpot. That's $125K that quietly disappeared from your pipeline. When did this happen and why wasn't it discussed? If you killed it, fine — but it should have been a conscious decision, not a silent CRM update.
 
 **You spent meaningful time on three side ventures (North, Moto Block, Stemsmiths) while cash dropped from $286K to $167K.** That's a 42% decline. North is a pitch deck that went nowhere after Doug saw it. Moto Block is a domain you haven't bought. Stemsmiths is Doug's project, not yours. None of these generate revenue for HI. You can't afford hobbies right now — you can afford them when HI is clearing $50K/month consistently.
 
 **Your sales outreach had a 50% bounce rate.** That means half your effort was wasted. You sent 55+ emails and probably reached 25-30 real people. That's not a sales program — that's a spray and pray with dirty data. You moved to HubSpot but haven't actually fixed the underlying problem: your contact database is garbage. Before the next blast, every single email needs to be verified.
 
-**Monday.com is underutilized.** Client Projects board: empty. Deals board: empty. You've got an Active Proposals board that hasn't been updated since early March for most items. The Metro Lagoons board is well-maintained (credit to Shameen), but the rest of your Monday.com is a ghost town. If you're paying for a project management tool, use it or cancel it.
+**Both Monday.com AND HubSpot are underutilized.** Client Projects board: empty. Deals board: empty. You've got an Active Proposals board that hasn't been updated since early March for most items. The Metro Lagoons board is well-maintained (credit to Shameen), but the rest of your Monday.com is a ghost town. If you're paying for project management tools, use them or cancel them. HubSpot has 43 leads that haven't been touched in a month. You've got 25 Directors Chair deals and 18 Manufacturing deals sitting at Lead stage — nobody is working them. Michael Sin was onboarded in February specifically to work this pipeline. Where's the evidence?
 
 **You owe people things and haven't delivered:**
 - Hillary Kent — Tulum Beach Club details (outstanding since March 24+)
