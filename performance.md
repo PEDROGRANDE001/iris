@@ -260,7 +260,7 @@ Still open (11 items): Frankford umbrella finishes (emailed Sarah Sanford 3/25),
 
 ---
 
-## 10. April Priorities (Recommended)
+## 13. April Priorities (Recommended)
 
 1. **Ritz BH orders** — Convert design into purchase orders. The end-of-March target slipped; April is the line.
 2. **April 7 deadline** — Furniture/owner's items removal. Non-negotiable.
@@ -273,7 +273,63 @@ Still open (11 items): Frankford umbrella finishes (emailed Sarah Sanford 3/25),
 
 ---
 
-## 11. Honest Assessment
+## 11. Quarter in Review: January → February → March
+
+### The Scorecard
+
+| Category | Jan | Feb | Mar | Trend |
+|----------|-----|-----|-----|-------|
+| Client Engagement | A (93) | A (93) | A (93) | → Consistently strong |
+| Business Development | B+ (87) | A- (90) | B (85) | ↓ Slipped |
+| Systems & Infrastructure | D (65) | A+ (98) | B+ (88) | ↓ Built, not maintained |
+| Design Output | A (93) | A (93) | A (93) | → Consistently strong |
+| Task Completion | D (63) | D+ (68) | C- (72) | ↑ Slowly improving |
+| Financial Management | B (83) | B- (80) | C+ (77) | ↓ Cash declining |
+| **OVERALL** | **79.4 — C+** | **88.2 — B+** | **84.0 — B** | **↓ from Feb peak** |
+
+### The Story of Q1
+
+**January** was raw hustle with no infrastructure. You were everywhere — ALIS, Tampa, site visits — running on instinct and reputation. No CRM, no systems, no pipeline tracking. Grade: C+.
+
+**February** was the infrastructure month. HubSpot, Iris, Michael Sin, morning briefings, Monday.com discipline. Output doubled. You went from a one-man show to a company with systems. This was your best month. Grade: B+.
+
+**March** should have been the payoff month — you had the systems, you had the team, you had the pipeline. Instead, you partially regressed. Here's why:
+
+### What Improved (Jan → Mar)
+- **Task completion: D → C-.** Still your weakest area, but Metro Lagoons contract got signed, 30+ tasks completed on that board, Ritz South Lawn has 5/11 items ready for delivery. You're finishing more things than January.
+- **Revenue: $0 closed in Jan/Feb → $86K closed in March.** This is real. Metro Lagoons ($80K), 1WLO ($6.8K), Mahoney (won). You actually closed deals.
+- **OAC cadence: 1 (Jan) → 3 (Feb) → 8 (Mar).** You tripled your Ritz engagement. Sample board shipped. CDR approved. Document timeline created for accountability.
+
+### What Got Worse (Feb → Mar)
+- **Business development dropped from A- to B.** February had structured outreach (25 vetted drafts, Michael Sin onboarded, HubSpot pipeline with 25 deals). March had two sloppy email blasts with 50% bounce rates. You went backward on BD discipline.
+- **Systems usage declined.** February you were all-in on HubSpot (82 contacts, 25 deals). March? Client Projects board: empty. Deals board: empty. Active Proposals not updated. You built the systems in February and stopped using them in March.
+- **Cash: $286K (Aug) → $167K (Dec) → still falling.** No improvement. Three months of building and the financial trajectory hasn't changed.
+- **New distractions multiplied.** January had zero side ventures. February had the book project (reasonable). March had North, Moto Block, AND Stemsmiths. The distraction load tripled while cash declined.
+- **Pipeline stalled.** Four Seasons Papagayo went from B (Jan) → C+ (Feb) → unchanged (Mar). Chatwal went from B+ (Jan) → C (Feb) → still unsigned (Mar). These are getting *worse* with time, not better.
+
+### The Recurring Pattern (3 months of data)
+
+Every monthly review has flagged the same issues:
+1. **Task completion is always the lowest grade.** D → D+ → C-. It's improving, but at this rate you'll hit a B- by June. That's too slow.
+2. **"To respond" email backlog never gets resolved.** January flagged it. February flagged it. March still has outstanding items (Hillary Kent, Nora Taylor, Frank Munoz). It's chronic.
+3. **Overcommitting then underdelivering.** January: missed material selection deadlines. February: growing overdue list. March: Ritz orders that were supposed to close didn't.
+4. **New things are more exciting than finishing old things.** January: no side projects. February: one (book). March: three (North, Moto Block, Stemsmiths). The curve is going the wrong direction.
+
+### February's "What an A Month Looks Like" — Did March Hit It?
+
+| Feb's Target | March Result | Hit? |
+|-------------|-------------|------|
+| Zero Procore RFIs overdue | Unknown — not tracked in March | ❓ |
+| "To respond" emails < 5 at any time | Still carrying multi-week debts | ❌ |
+| Metro Lagoons contract signed | ✅ Signed Mar 11 | ✅ |
+| 2 blocked "task execution" mornings/week | No evidence of this habit forming | ❌ |
+| One new deal closed (Hyatt or Mahoney) | Mahoney closed. Hyatt still open. | ✅ (partial) |
+
+**2 out of 5.** Not enough.
+
+---
+
+## 12. Honest Assessment
 
 ### What you did well
 The Ritz BH is moving. You showed up every week, shipped the sample board, got CDR approved, and maintained cadence with Hawkins and Melanie. The Metro Lagoons contract getting signed was real revenue. The UMusic inbound validates that your name still opens doors. The brand pivot on March 24 — killing the "we source whatever" identity and committing to American-made, operator-led curation — was the most important strategic decision of the month.
