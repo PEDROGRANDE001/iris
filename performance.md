@@ -180,13 +180,78 @@ Peter's entrepreneurial instincts are sharp. North has legs if someone builds it
 
 ---
 
-## 8. Metrics
+## 8. Monday.com Task Execution
+
+### Deals Closed in March (Active Proposals → Won)
+| Deal | Value | Closed | Owner |
+|------|-------|--------|-------|
+| Brian Mahoney — Backyard Cabana | TBD | Mar 9 | Peter |
+| 1WLO — Banquette and Table | $6,800 | Mar 9 | Peter |
+| Metro Lagoons — Furniture Procurement | $80,000 | Mar 9 | Peter |
+
+**Total closed in March: ~$86,800+** (Mahoney value TBD)
+
+### Active Pipeline (Still Open)
+| Deal | Value | Priority | Owner |
+|------|-------|----------|-------|
+| Four Seasons Papagayo | $12,500 | High | Peter |
+| Hyatt Place Boca | $6,000 | High | Austin |
+| Design Pool — Parc Soleil Hilton (Tuuci) | $11,100 | Low | Shameen |
+| Alison George — Tuuci Umbrellas | $1,660 | Low | Shameen |
+| Jason Monaco Toronto — Tuuci Cushions | $500 | Low | Shameen |
+
+**Active pipeline: ~$31,760** (excludes Ritz BH and Chatwal, which are tracked separately)
+
+### Metro Lagoons — Task Completion (47 items on board)
+Peter personally completed:
+- ✅ Questions for Liz — done
+- ✅ Review order with Ivetta — done
+- ✅ Acquire chaise lounge sample at DecoScape — done
+- ✅ Cabana credenza options — sourced, quote sent Feb 24
+- ✅ Alternate fire pit option — DecoScape to make
+- ✅ Seek approval for Valrose cabana order — done
+- ✅ Design upstairs bar (3-4 hours @ $150/hr) — done
+- ✅ **Contract signed** — sent to Jonathan Mar 11, executed
+
+Shameen completed 20+ sourcing/operations tasks including: mini tikis, valet stands, trash cans, beach umbrellas, fire pit tables, planters, ceiling fans, lifeguard stand, billing, tax exemptions (Walmart, Webstaurant, Rejuvenation, Trashcans Unlimited), cabana shop drawings from Valrose, and March billing.
+
+Still open (11 items): Frankford umbrella finishes (emailed Sarah Sanford 3/25), sand bar upstairs design, PED cabana drawings, fire pit finish confirmation, ceiling fans, security station artwork, beach umbrella finishes.
+
+### Ritz South Lawn Order — 11 Items Tracked
+| Item | Status |
+|------|--------|
+| Side Tables (Cone) | ✅ Ready for delivery |
+| Side Table (Siro Stool) | ✅ Ready for delivery |
+| Fans | ✅ Ready for delivery |
+| Planters | ✅ Ready for delivery |
+| Safe and Remote | ✅ Ready for delivery |
+| Credenzas | 🔄 In Production |
+| Coffee Table | 🔄 In Production |
+| Sun Lounger and Pads | 🔄 In Production |
+| Sofa | 🔄 In Production |
+| 43" Outdoor TVs and Mounts | ⏳ Not started |
+| Throw Pillows | ⏳ Not started |
+
+**5 of 11 items ready for delivery. 4 in production. 2 not started.**
+
+### Activities Board
+- Meeting with Robert (Lavia/UMusic) — logged
+- Follow up with Gerald @ DecoScape — 4% commission agreement — created
+- Email Jason Gutman @ Valrose — $5K fee agreement — created
+
+---
+
+## 9. Metrics
 
 | Metric | Value |
 |--------|-------|
 | Calendar events | 85+ |
 | RCBH meetings | 8 |
 | Sales emails sent | ~55-60 |
+| Deals closed (March) | 3 ($86,800+) |
+| Active pipeline | $31,760 (excl. Ritz/Chatwal) |
+| Metro Lagoons tasks completed | 30+ (Peter: 8, Shameen: 20+) |
+| Ritz South Lawn items ready | 5 of 11 |
 | New leads generated | 3-5 (UMusic, Samia, Malcolm, Maxime, US Capital) |
 | Client presentations delivered | 4+ (sample board, document timeline, fabric selector, one-pager) |
 | New business concepts | 2 (North, Moto Block) |
@@ -195,7 +260,7 @@ Peter's entrepreneurial instincts are sharp. North has legs if someone builds it
 
 ---
 
-## 9. April Priorities (Recommended)
+## 10. April Priorities (Recommended)
 
 1. **Ritz BH orders** — Convert design into purchase orders. The end-of-March target slipped; April is the line.
 2. **April 7 deadline** — Furniture/owner's items removal. Non-negotiable.
@@ -208,7 +273,7 @@ Peter's entrepreneurial instincts are sharp. North has legs if someone builds it
 
 ---
 
-## 10. Honest Assessment
+## 11. Honest Assessment
 
 Peter, you ran hard this month. The Ritz is progressing, the brand pivot was overdue and smart, and the UMusic inbound proves the market sees your value. The sales blasts were a good forcing function even with the bounce problems.
 
