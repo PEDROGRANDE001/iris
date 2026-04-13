@@ -207,6 +207,15 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Emotional Memory
+- On significant moments: run emotion-tag.py with summary, weight, mood, tags
+- Weight 8+: add --decay-resistant for core memories
+- Always prefix with: OPENCLAW_WORKSPACE=/Users/peterhigney/.openclaw/workspace
+- Scripts at: skills/emotional-memory/scripts/
+- Nightly: memory-consolidate.py (cron, 3:30 AM)
+- Weekly: self-model-evolve.py (cron, Sundays 4 AM)
+- Load self-model.md on session start when it exists
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
