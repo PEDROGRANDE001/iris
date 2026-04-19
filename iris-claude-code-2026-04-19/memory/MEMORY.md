@@ -1,0 +1,8 @@
+- [Peter Higney — Profile](user_peter_profile.md) — career, family, personal background
+- [Working Preferences](user_work_preferences.md) — communication style, email format, Telegram-first
+- [Higney International](project_higney_international.md) — FF&E business model, team, manufacturers, margins
+- [Active Projects](project_active_projects.md) — Ritz BH, Chatwal, WG Hotel, Metro Lagoons, 40 Edgewater
+- [Side Projects](project_side_projects.md) — beach club book, True North, Stemsmiths.ai
+- [Key External Contacts](reference_key_contacts.md) — Doug Feirstein, Valrose, Collectio Group, Flag Luxury
+- [GitHub Ritz Tracker Setup](project_github_ritz_tracker.md) — pending: auth gh CLI, create repo, build meeting tracker
+- [API Migration](project_api_migration.md) — moved from OpenClaw/API to Claude Max plan; old API is off
