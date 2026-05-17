@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Bash(*)",
+      "mcp__claude_ai_Gmail__*",
+      "mcp__claude_ai_Google_Calendar__*",
+      "mcp__claude_ai_Google_Drive__*",
+      "mcp__claude_ai_HubSpot__*",
+      "mcp__claude_ai_monday_com__*",
+      "WebFetch",
+      "WebSearch",
+      "Agent",
+      "TodoWrite",
+      "NotebookEdit",
+      "CronCreate",
+      "CronDelete",
+      "CronList"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(shutdown*)",
+      "Bash(reboot*)"
+    ]
+  },
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true
+  }
+}
