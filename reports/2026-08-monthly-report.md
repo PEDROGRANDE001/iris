@@ -37,14 +37,11 @@ This is where the bookings-only draft was most wrong. It graded August Financial
 
 **Forward flag:** the model then projects Sep-Dec as four straight cash-negative months (Sep -$52K, Oct -$5K, Nov -$61K, Dec -$50K), drawing the balance from $285,868 down to a projected **$117,443 by year-end.** The Ritz cash cushion is real, and the projection spends most of it by December. That is the whole argument for refilling the bookings pipeline now.
 
-**Pipeline refill (early September, logged in HubSpot):** four deals landed right at the September line that speak directly to that drawdown, and two of them are Nikki Beach:
+**Pipeline refill (early September, logged in HubSpot):** three deals landed right at the September line that speak directly to that drawdown:
 
-- **Nikki Beach Global — Consulting Service: $120K/yr net, recurring.** An HI consulting line. Net, recurring, and not FF&E-dependent — revenue that doesn't need Peter to source a single umbrella to earn. On its own it offsets roughly a full month of the projected Sep-Dec burn, every year, and it recurs.
-- **Nikki Beach BD Contractor (Lucia): $100K/yr base + 1.4% commission on completed contract value** (plus a ~$40K item still to be clarified). A *separate* engagement — Peter personally as an outside new-business-development contractor for Nikki Beach, while keeping HI. The $100K base is guaranteed; the 1.4% is upside on whatever contracts he closes, so the true value scales well past the base. Logged at base only for now.
+- **Nikki Beach Global — Consulting Service: $120K/yr net, recurring.** This is Lucia's Nikki Beach engagement (an outside-contractor new-business-development role for Peter, HI kept intact), captured at its $120K/yr net value. It is *recurring, net, and not FF&E-dependent* — revenue that doesn't need Peter to source a single umbrella to earn. On its own it offsets roughly a full month of the projected Sep-Dec burn, every year, and it recurs. This is the structural answer to "what replaces Ritz," now on the board instead of in a conversation.
 - **Metro Lagoon 2027: $300K, manufacturing.** Real but light against the ~$5M / ~10%-net fulfillment scope discussed; if it's meant to carry all five contracts it needs to be re-sized.
 - **Taste Bathrooms: $20K.** TRP's third project (after Rosa Sky and TASTE), the compounding-account story continuing.
-
-Stack the two Nikki Beach lines and you have **$220K/yr of largely recurring, largely non-FF&E revenue before a dollar of commission** — a structural answer to "what replaces Ritz," now on the board instead of in a conversation.
 
 ---
 
@@ -129,15 +126,15 @@ Seven months, zero. This is now a data-integrity problem, not a sales problem. E
 
 Peter, the Ritz is going to land, and land well. POs are shipping, the install team is lined up, and you've got a delivery window in writing. That's a flagship being flown to a clean landing. Credit where it's due.
 
-But August is the second straight month where the only thing moving is delivery. Nine new contacts. One new deal. The $400K Key Biscayne proposal has been sitting untouched since May while you ship umbrellas. You have several warm expansion paths right now — Metro Lagoons' five new fulfillment contracts, the two Nikki Beach lines from Lucia ($120K/yr net HI consulting + a $100K base / 1.4% contractor role for you), TRP's TASTE and Bubba Gump work — and the risk is that Ritz delivery eats your fall the way Ritz procurement ate your summer.
+But August is the second straight month where the only thing moving is delivery. Nine new contacts. One new deal. The $400K Key Biscayne proposal has been sitting untouched since May while you ship umbrellas. You have three warm expansion paths right now — Metro Lagoons' five new fulfillment contracts, the Nikki Beach consulting engagement from Lucia (now logged at $120K/yr net, recurring), TRP's TASTE and Bubba Gump work — and the risk is that Ritz delivery eats your fall the way Ritz procurement ate your summer.
 
 Here's the pattern across five months, plain: your delivery and design work is consistently A-grade. Your business development is a light switch — full on in June, off in July and August. The business grows when both are on. Ritz will be done by January.
 
 And now the cash statement makes the stakes concrete. August banked $285K, the best position of the year. But your own model projects that cushion draining to $117K by December across four negative months. Ritz delivery is the cash you're now spending down. What's in the pipeline to replace $400K+ of flagship revenue before that balance runs thin? That's the September question, and the cash flow just put a deadline on it.
 
-The good news: you've already started answering it. In the first days of September you logged four new deals, and two of them are Nikki Beach — a $120K/yr net recurring consulting line for HI, and a separate contractor role for you personally at $100K base plus 1.4% commission. That's $220K/yr of largely recurring, largely non-FF&E revenue before any commission upside. Not one-time furniture markup, an annuity that pays whether or not you're sourcing product. Close both, size Metro Lagoon 2027 to its real scope, and the December cliff stops looking like a cliff.
+The good news: you've already started answering it. In the first days of September you logged three new deals, and the Nikki Beach Global consulting engagement (Lucia's offer) at $120K/yr net, recurring, is exactly the kind of revenue this business needs more of. Not one-time furniture markup, an annuity that pays whether or not you're sourcing product. Close it, size Metro Lagoon 2027 to its real scope, and the December cliff stops looking like a cliff.
 
-One caution on the contractor role: nail down what the 1.4% is actually paid on (gross vs net, new contracts vs renewals, paid on signing vs collection) and what the ~$40K item is, before you sign. Same discipline you brought to the Ritz redline.
+One caution before you sign the Nikki Beach deal: nail down what the commission is actually paid on (gross vs net, new contracts vs renewals, paid on signing vs collection) and what the ~$40K item Lucia mentioned actually is. Same discipline you brought to the Ritz redline.
 
 ---
 
