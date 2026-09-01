@@ -5,7 +5,7 @@
 
 ## Executive Summary
 
-June was the best month of the year. **$78,700 in closed revenue**, the biggest single-month contact haul of 2026 (85 new contacts), and the Ritz-Carlton Bal Harbour project shifting decisively from design into procurement. Both Hyatt Place deals that had been "about to close" for months finally closed. The install contract with Withers got finalized. Showers were purchased. Peak task creation on the Ritz board (54 new items).
+June was the best *bookings* month of the year and, it turns out, the worst *cash* month. **$78,700 in closed-won**, the biggest single-month contact haul of 2026 (85 new contacts), and the Ritz-Carlton Bal Harbour project shifting decisively from design into procurement, all while the bank account actually shrank by $37K (see Cash, below). The wins were real; the money just hadn't arrived yet. Both Hyatt Place deals that had been "about to close" for months finally closed. The install contract with Withers got finalized. Showers were purchased. Peak task creation on the Ritz board (54 new items).
 
 If May was judgment under pressure, June was execution firing on all cylinders. The revenue engine that had been sputtering since March finally turned over: two Hyatt closings ($76K combined) plus a handful of service jobs. And the flagship moved from paper to purchase orders.
 
@@ -24,6 +24,18 @@ The one caution flag: a lot of June's new deals were tiny service jobs (umbrella
 | Ritz board items created | 54 | 24 | +125% (peak) |
 | Ritz board items updated | 31 | 23 | +35% |
 | Sent email (Peter, approx floor) | ~100+ | ~150 | Steady |
+
+### Cash (from the Aug 20 CF statement — revised in)
+| Cash metric | June 2026 |
+|-------------|-----------|
+| Cash inflow | **-$13,191** |
+| Cash outflow | $23,605 |
+| Net cash | **-$36,796** |
+| Ending bank (Truist) | $188,337 |
+
+Here is the element the first draft of this report completely missed. June **booked** the best bookings month of the year ($78,700 closed-won), but on a **cash** basis it was the **worst month of 2026**: net burn of $36,796, and the only month all year with *negative* total cash inflow (-$13,191). Outflow was actually low and disciplined ($23,605, payroll ~$12.69K). The problem was the top line: more cash left than came in.
+
+Two things explain the gap. First, timing: those June bookings (Hyatt x2) don't collect the same month; their deposits and the Ritz procurement cash landed later, and in fact showed up in force in August. Second, the negative inflow line itself needs a look, it implies refunded deposits or a passthrough reversal in June. **Worth confirming with Shameen what drove the -$13K.** The bank balance dropped from $225K to $188K, the low point of the year to date. A booking bonanza that coincides with your worst cash month is exactly why bookings alone can't be the scoreboard.
 
 ---
 
@@ -99,9 +111,11 @@ The Furniture Procurement item shows no new activity after March. If there's a n
 | Business Development | A- (90) | 20% | 18.0 |
 | Design Output | A- (90) | 15% | 13.5 |
 | Task Completion | A- (90) | 15% | 13.5 |
-| Financial Results | B+ (88) | 15% | 13.2 |
+| Financial Results | C+ (78) | 15% | 11.7 |
 | Systems & Process | B+ (88) | 10% | 8.8 |
-| **OVERALL** | | | **90.3 / 100 — A-** |
+| **OVERALL** | | | **88.8 / 100 — B+** |
+
+*Revised Sep 1 to fold in the cash-flow statement. Financial cut from B+ to C+ and overall from A- to B+: June was the strongest bookings month but the weakest cash month of the year (-$36,796 net, negative inflow). The bookings were real and largely collected in August, so this is a timing story, not a lost-value story, but June was not the unqualified best month the bookings-only draft claimed.*
 
 ---
 
@@ -111,7 +125,7 @@ This is what a good month looks like, Peter. Best revenue of the year, the flags
 
 The thing to protect against now is comfort. June's revenue leaned on two Hyatt deals that had been in the oven for months. The next wave — Key Biscayne at $400K, the Nikki Beach extension, the coming Metro Lagoons fulfillment contracts — those are the ones that make the year. Don't let June's small service jobs become the whole diet.
 
-Best month of 2026. Now make it the floor, not the ceiling.
+Best bookings month of 2026. Just remember the cash showed up two months later, in August. Now make the bookings the floor, not the ceiling, and watch the gap between signing and collecting.
 
 ---
 

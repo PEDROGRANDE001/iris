@@ -25,6 +25,16 @@ To be fair to the numbers: the $0 closed-won badly understates July's real econo
 | Ritz board items updated | 78 | 31 | +152% (peak) |
 | Sent email (Peter, approx floor) | ~100+ | ~100+ | Steady |
 
+### Cash (from the Aug 20 CF statement — revised in)
+| Cash metric | July 2026 |
+|-------------|-----------|
+| Cash inflow | $38,518 |
+| Cash outflow | $28,298 |
+| Net cash | **+$10,220** |
+| Ending bank (Truist) | $198,556 |
+
+This is the correction that matters most for July. The first draft graded Financial Results an **F** because zero new deals closed-won. On a **cash** basis that was flat wrong: July was **cash-positive, net +$10,220**, and the bank balance rose from $188K to $199K. Collections were healthy ($38,518 in), outflow was lean and disciplined ($28,298, payroll ~$12.63K, low COGS of $525). A month where the business funds itself and grows the balance is not an F, regardless of what the bookings pipeline did. The Ritz procurement Peter drove was already converting to cash.
+
 ---
 
 ## Key Wins
@@ -60,8 +70,8 @@ Design Development Set Exterior RFQ #010 / CE #157, slab/stone selection, Tuuci 
 ### 1. New-business development — D+
 One deal created. Five lost. 26 contacts, down from 85. This is the lowest sales-input month of the year. When Peter goes heads-down on execution, prospecting stops entirely. That's the recurring structural flaw: the business has one engine, and when it's pointed at delivery, nothing points at growth.
 
-### 2. Financial results (new business) — F
-$0 closed-won on new deals. The three "wins" were zero-value service jobs. The lost column (Four Seasons Papagayo, Boat Yard, Dayssi Umbrella, 1WLO cover, S3) outweighed the wins. Yes, the Ritz POs carry the real economics — but a month where five deals die and none are born is a warning.
+### 2. New bookings — F (note: cash was fine)
+$0 closed-won on new deals. The three "wins" were zero-value service jobs. The lost column (Four Seasons Papagayo, Boat Yard, Dayssi Umbrella, 1WLO cover, S3) outweighed the wins. A month where five deals die and none are born is a real warning **for the pipeline**. But to be clear after seeing the cash statement: this is a *bookings* failure, not a *financial* one. The bank still grew $10K in July (see Cash, above). The problem is future revenue, not present cash.
 
 ### 3. Side-project pull — B-
 The Franka voice/TTS build (Kokoro-FastAPI, launchd service) and continued personal-systems work happened in July. Lower stakes than HITX, but it's the same instinct: build a tool instead of make a call. When sales inputs hit a yearly low in the same month, the correlation is worth naming.
@@ -93,9 +103,11 @@ Six months. Still zero. This line item should either be worked or deleted from t
 | Business Development | D+ (68) | 20% | 13.6 |
 | Design Output | A- (90) | 15% | 13.5 |
 | Task Completion | A (92) | 15% | 13.8 |
-| Financial Results | F (55) | 15% | 8.3 |
+| Financial Results | C+ (78) | 15% | 11.7 |
 | Systems & Process | B (83) | 10% | 8.3 |
-| **OVERALL** | | | **80.8 / 100 — B-** |
+| **OVERALL** | | | **84.3 / 100 — B** |
+
+*Revised Sep 1 to fold in the cash-flow statement. Financial raised from F to C+ and overall from B- to B: the bookings-only draft called July a financial failure, but July was cash-positive (+$10,220) with a rising bank balance. Zero new bookings is a pipeline concern, not a financial one.*
 
 ---
 

@@ -28,6 +28,16 @@ Revenue recovered from April's $7K floor to $34K. Not a blowout, but the pipelin
 
 *Email counts are approximate. May was the only month fully paginated; treat cross-month email deltas as directional.*
 
+### Cash (from the Aug 20 CF statement — revised in)
+| Cash metric | May 2026 |
+|-------------|----------|
+| Cash inflow | $44,939 |
+| Cash outflow | $49,959 |
+| Net cash | **-$5,020** |
+| Ending bank (Truist) | $225,133 |
+
+May burned $5K of cash, but the outflow carried two chunky items that flatter that number: the **annual insurance premium of $7,875** (the $5M umbrella + E&O the Ritz contract requires) and **$12,971 of sales-tax remittance** (a passthrough, not an operating cost). Strip the one-time insurance and May was roughly cash-neutral on operations. Payroll ran its usual ~$12.65K. This is a fine cash month, not a worrying one.
+
 ---
 
 ## Key Wins
@@ -101,9 +111,11 @@ Emotional-memory, the board-of-directors AI feature (later shelved), QuickBooks/
 | Business Development | B (85) | 20% | 17.0 |
 | Design Output | A (93) | 15% | 14.0 |
 | Task Completion | C+ (78) | 15% | 11.7 |
-| Financial Results | C (76) | 15% | 11.4 |
+| Financial Results | C+ (77) | 15% | 11.6 |
 | Systems & Process | B (85) | 10% | 8.5 |
-| **OVERALL** | | | **85.9 / 100 — B** |
+| **OVERALL** | | | **86.0 / 100 — B** |
+
+*Revised Sep 1 to fold in the cash-flow statement. Financial nudged from C to C+: on a cash basis May was ~neutral once the one-time insurance premium is excluded, slightly better than the bookings-only read.*
 
 ---
 

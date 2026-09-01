@@ -5,7 +5,7 @@
 
 ## Executive Summary
 
-August was the month the Ritz-Carlton Bal Harbour procurement started to physically move. Multiple **Tuuci order confirmations and shipping notices** hit the inbox — CX/EX order numbers, freight in motion. The paper POs from July became furniture on trucks. A hard delivery target got set in writing: **everything on property December 7-19, turnover January 4.** The flagship is now on rails toward a defined finish line.
+August was the month the money landed. On cash it was the **best month of 2026**, $125K collected, $87K net, bank balance at a year-high $285,868, as the spring's Ritz bookings finally converted to deposits and payments. It was also the month the Ritz-Carlton Bal Harbour procurement started to physically move. Multiple **Tuuci order confirmations and shipping notices** hit the inbox — CX/EX order numbers, freight in motion. The paper POs from July became furniture on trucks. A hard delivery target got set in writing: **everything on property December 7-19, turnover January 4.** The flagship is now on rails toward a defined finish line.
 
 New business stayed quiet but not dead. $8,500 closed (1WLO Rooftop banquettes $7K, Rosa Sky $1.5K). One new lead created (Lago Mar Beach Resort & Club). The TASTE bathroom remodel with The Restaurant People went active — the same TRP relationship that started with Rosa Sky is now producing a third project. Only 9 new contacts, the thinnest month of the year for relationship input.
 
@@ -24,6 +24,18 @@ The honest frame: August was an execution-and-delivery month, not a growth month
 | Ritz board items created | 21 | 50 | -58% (winding to delivery) |
 | Ritz board items updated | 49 | 78 | -37% |
 | Sent email (Peter, approx floor) | ~60+ | ~100+ | Down |
+
+### Cash (from the Aug 20 CF statement — revised in)
+| Cash metric | Aug 2026 |
+|-------------|----------|
+| Cash inflow | **$125,344** (best of year) |
+| Cash outflow | $38,033 |
+| Net cash | **+$87,311** (best of year) |
+| Ending bank (Truist) | **$285,868** (year high) |
+
+This is where the bookings-only draft was most wrong. It graded August Financial Results a **D+** on $8,500 of closed-won. On a **cash** basis August was the **single best month of the year**: $125,344 collected, $87,311 net, and the bank balance vaulted from $199K to $285,868, the high-water mark of 2026. This is the June bookings and the Ritz procurement finally landing as money in the account. Outflow was normal ($38,033, including $10,320 sales tax and $8,642 COGS). August didn't sign much, but it *banked* everything the spring had been building toward.
+
+**Forward flag:** the model then projects Sep-Dec as four straight cash-negative months (Sep -$52K, Oct -$5K, Nov -$61K, Dec -$50K), drawing the balance from $285,868 down to a projected **$117,443 by year-end.** The Ritz cash cushion is real, and the projection spends most of it by December. That is the whole argument for refilling the bookings pipeline now.
 
 ---
 
@@ -96,9 +108,11 @@ Seven months, zero. This is now a data-integrity problem, not a sales problem. E
 | Business Development | C (74) | 20% | 14.8 |
 | Design Output | B+ (87) | 15% | 13.1 |
 | Task Completion | A- (89) | 15% | 13.4 |
-| Financial Results | D+ (68) | 15% | 10.2 |
+| Financial Results | A (92) | 15% | 13.8 |
 | Systems & Process | B (83) | 10% | 8.3 |
-| **OVERALL** | | | **82.8 / 100 — B-** |
+| **OVERALL** | | | **86.4 / 100 — B+** |
+
+*Revised Sep 1 to fold in the cash-flow statement. Financial jumped from D+ to A and overall from B- to B+: August was the best cash month of the year (+$87,311 net, $285,868 ending balance). The bookings-only draft badly understated it by looking at closed-won ($8.5K) instead of collections ($125K).*
 
 ---
 
@@ -108,7 +122,9 @@ Peter, the Ritz is going to land, and land well. POs are shipping, the install t
 
 But August is the second straight month where the only thing moving is delivery. Nine new contacts. One new deal. The $400K Key Biscayne proposal has been sitting untouched since May while you ship umbrellas. You have three warm expansion paths right now — Metro Lagoons' five new fulfillment contracts, the Nikki Beach BD offer from Lucia, TRP's TASTE and Bubba Gump work — and the risk is that Ritz delivery eats your fall the way Ritz procurement ate your summer.
 
-Here's the pattern across five months, plain: your delivery and design work is consistently A-grade. Your business development is a light switch — full on in June, off in July and August. The business grows when both are on. Ritz will be done by January. What's in the pipeline to replace $400K+ of flagship revenue? That's the September question.
+Here's the pattern across five months, plain: your delivery and design work is consistently A-grade. Your business development is a light switch — full on in June, off in July and August. The business grows when both are on. Ritz will be done by January.
+
+And now the cash statement makes the stakes concrete. August banked $285K, the best position of the year. But your own model projects that cushion draining to $117K by December across four negative months. Ritz delivery is the cash you're now spending down. What's in the pipeline to replace $400K+ of flagship revenue before that balance runs thin? That's the September question, and the cash flow just put a deadline on it.
 
 ---
 
